@@ -41,7 +41,9 @@
     src: local('Wix Madefor Display'), url('../fuentes/assets/WixMadeforDisplayRegular.woff') format('woff');
 }
 @font-face {
-    font-family: 'Wix Madefor Display Bold';
+    font-family: 'Wix Madefor Display';
+    font-style: normal;
+    font-weight: 700;
     src: local('Wix Madefor Display'), url('../fuentes/assets/WixMadeforDisplayBold.woff') format('woff');
 }
 @font-face {
@@ -309,7 +311,8 @@ main {
     padding-top: 90px;
 }
 .titulos-portadas {
-    font-family: 'Wix Madefor Display Bold';
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 100;
     font-size: 45px;
     line-height: 47px;
     padding-top: 80px;
