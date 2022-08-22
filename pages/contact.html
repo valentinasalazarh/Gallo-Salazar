@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branding + Web Design | GALLO Créatif</title>
+    <link rel="shortcut icon" href="../images/favicon.svg">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/wix-madefor-text" rel="stylesheet">
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="barra-header">
+        <a href="../index.html">
+            <div>
+                <img class="logo-header" src="../images/logo-gallo-principal.svg" alt="Logo de GALLO">
+            </div>
+        </a>
+        <nav class="navegacion">
+            <ul class="links-navegacion">
+                <li>
+                    <a href="../index.html">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./about-us.html">
+                        <p>About us</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./what-we-do.html">
+                        <p>What we do</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./portfolio.html">
+                        <p>Portfolio</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <img src="../images/contact.svg" alt="icono de contact">
+                        <p>Contact</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a href="https://wa.link/rpb7yg" target="_blank">
+            <div class="boton-whatsapp">
+                <h6 class="titulos">wa</h6>
+            </div>
+        </a>
+    </header>
+
+    <!-- CONTENIDO -->
+    <main class="main-contact">
+        <section class="contact-1">
+            <h1 class="titulos-portadas">Hey!<br>¿Te animas a empezar tu sueño?</h1>
+            <div class="info-contact">
+                <div>
+                    <img src="../images/logo-footer.svg" alt="Logo variable de GALLO">
+                </div>
+                <div>
+                    <h4 class="titulos">Based in Colombia | Working worldwide</h4>
+                    <div class="mail-tel-contact">
+                        <ul>
+                            <li>
+                                <a href="mailto:hola@gallocreatif.com" target="_blank">
+                                    <img src="../images/mail.svg" alt="icono de e-mail">
+                                    <h2 class="titulos">hola@gallocreatif.com</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:3163861529">
+                                    <img src="../images/celular.svg" alt="icono de celular">
+                                    <h2 class="titulos">+57 316 3861529</h2>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-2">
+            <h4 class="titulos">Queremos conocerte, si tú también quieres, déjanos tus datos:</h4>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+                <label for="correo">E-mail</label>
+                <input type="text" id="correo" placeholder="Ingresa tu E-mail">
+                <label for="pais">País</label>
+                <select id="pais">
+                    <option>Colombia</option>
+                    <option>Argentina</option>
+                    <option>México</option>
+                    <option>España</option>
+                </select>
+                <!-- <label for="celular">Celular</label>
+                <input type="tel" id="celular" placeholder="Ingresa tu celular"> -->
+                <label for="cumpleanos">Cumpleaños</label>
+                <input type="date" id="cumpleanos" placeholder="Ingresa tu cumpleaños">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" cols="30" rows="5">Escribe aquí</textarea>
+                <div class="newsletter-formulario">
+                    <label for="newsletter-contact">¿Quieres recibir nuestros newsletter?</label>
+                    <input name="option" type="radio">
+                    <span>Si</span>
+                    <input name="option" type="radio">
+                    <span>No</span>
+                </div>
+                <div class="tratamiento-datos-formulario">
+                    <label for="tratamiento-datos">Acepto la política de tratamiento de datos personales</label>
+                    <input type="checkbox" id="tratamiento-datos">
+                </div>
+                <div class="botones-formulario">
+                    <input type="reset" value="Later">
+                    <input type="submit" value="Start">
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
