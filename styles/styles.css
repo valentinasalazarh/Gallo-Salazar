@@ -368,6 +368,9 @@ form input[type="reset"]:hover{
 .links-navegacion {
     display: none;
 }
+.links-navegacion li a p {
+    font-size: 11px;
+}
 .boton-whatsapp {
     position: fixed;
     top: 550px;
