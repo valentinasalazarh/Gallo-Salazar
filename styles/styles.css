@@ -298,7 +298,9 @@ form input[type="reset"]:hover{
 }
 .boton-whatsapp:hover {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #E2FFA4;
+    transition: 0.5s;
+    width: 60px;
 }
 
 /* CSS DEL MAIN DE INDEX */
