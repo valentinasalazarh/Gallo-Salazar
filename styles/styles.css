@@ -896,7 +896,7 @@ footer {
     .main-contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100vh;
+        grid-template-rows: 100%;
         grid-template-areas:
         "contact-1 contact-2";
     }
@@ -946,5 +946,9 @@ footer {
     }
     .grid-portfolio-index {
         margin-top: 70px;
+    }
+    /* CONTACT */
+    .main-contact {
+        grid-template-rows: 100vh;
     }
 }
