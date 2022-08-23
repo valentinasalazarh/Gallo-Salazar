@@ -148,20 +148,104 @@ button:hover {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #0025FF;
+    /* background-color: #0025FF; */
+    animation-name: punto-azul;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 0s;
 }
+.punto-azul:hover {
+    width: 15px;
+    height: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+@keyframes punto-azul {
+    0% {
+      background-color: #0025FF;
+    }
+    25% {
+      background-color: #E2FFA4;
+    }
+    50% {
+      background-color: #0025FF;
+    }
+    75% {
+      background-color: #E2FFA4;
+    }
+    100% {
+      background-color: #0025FF;
+    }
+  }
 .punto-negro {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #000000;
+    /* background-color: #000000; */
+    animation-name: punto-negro;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 0s;
 }
+.punto-negro:hover {
+    width: 15px;
+    height: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+@keyframes punto-negro {
+    0% {
+      background-color: #E2FFA4;
+    }
+    25% {
+      background-color: #ffd8bd;
+    }
+    50% {
+      background-color: #E2FFA4;
+    }
+    75% {
+      background-color: #ffd8bd;
+    }
+    100% {
+      background-color: #E2FFA4;
+    }
+  }
 .punto-verde {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #E2FFA4;
+    /* background-color: #E2FFA4; */
+    animation-name: punto-verde;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 0s;
 }
+.punto-verde:hover {
+    width: 15px;
+    height: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+@keyframes punto-verde {
+    0% {
+      background-color: #E2FFA4;
+    }
+    25% {
+      background-color: #0025FF;
+    }
+    50% {
+      background-color: #E2FFA4;
+    }
+    75% {
+      background-color: #0025FF;
+    }
+    100% {
+      background-color: #E2FFA4;
+    }
+  }
 /* CSS DE FORMULARIOS */
 form {
     font-family: 'Wix Madefor Display', sans-serif;
