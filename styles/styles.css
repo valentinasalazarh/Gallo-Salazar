@@ -379,9 +379,6 @@ form input[type="reset"]:hover{
 .links-navegacion {
     display: none;
 }
-.links-navegacion li a p {
-    font-size: 11px;
-}
 .boton-whatsapp {
     position: fixed;
     top: 550px;
@@ -811,7 +808,7 @@ footer {
     .links-navegacion a p {
         font-family: 'Wix Madefor Display', sans-serif;
         letter-spacing: 1px;
-        font-size: 9px;
+        font-size: 10px;
     }
     .links-navegacion a:hover {
         margin-top: 3px;
