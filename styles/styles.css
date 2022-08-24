@@ -670,7 +670,7 @@ footer {
 
 /* DISEÑO TABLET */
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
     .logo-header {
         width: 130px;
         padding: 15px;
@@ -785,9 +785,9 @@ footer {
     }
 }
 
-/* DISEÑO DESKTOP PEQUEÑO*/
+/* DISEÑO LARGE */
 
-@media screen and (min-width:1250px) {
+@media screen and (min-width: 992px) {
     .hamburguesa {
         display: none;
     }
@@ -818,6 +818,11 @@ footer {
         transition: 0.5s;
         color: #0025FF;
     }
+}
+
+/* DISEÑO DESKTOP PEQUEÑO*/
+
+@media screen and (min-width:1250px) {
     .parrafo-50 {
         padding-top: 20px;
         width: 40%;
