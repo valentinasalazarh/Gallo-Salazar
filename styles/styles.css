@@ -81,6 +81,7 @@ footer {
 .hamburguesa {
     background-color: #F5F3EE;
     font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 12px;
     font-weight: 100;
 }
 .boton-hamburguesa {
@@ -95,8 +96,10 @@ footer {
     background-color: #181818;
     color: #F5F3EE;
 }
-.hamburguesa div li a:hover {
+.hamburguesa div li a {
     padding: 10px;
+}
+.hamburguesa div li a:hover {
     border-radius: 10px;
     background-color: #E2FFA4;
 }
