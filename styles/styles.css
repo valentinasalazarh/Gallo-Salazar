@@ -83,6 +83,10 @@ footer {
     font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 100;
 }
+.hamburguesa-fondo-negro {
+    background-color: #181818;
+    color: #F5F3EE;
+}
 .hamburguesa div li a:hover {
     padding: 10px;
     border-radius: 10px;
