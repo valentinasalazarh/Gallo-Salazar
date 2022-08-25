@@ -805,6 +805,9 @@ footer {
     .hamburguesa {
         display: none;
     }
+    .hamburguesa-fondo-negro {
+        display: none;
+    }
     .links-navegacion {
         display: flex;
         flex-flow: row nowrap;
