@@ -78,32 +78,6 @@ footer {
 
 /* CSS general de todo el documento */
 
-.hamburguesa {
-    background-color: #F5F3EE;
-    font-family: 'Wix Madefor Display', sans-serif;
-    font-size: 12px;
-    font-weight: 100;
-}
-.boton-hamburguesa {
-    border: none;
-}
-.boton-hamburguesa:hover {
-    background-color: #F5FFDE;
-    border-radius: 15px;
-    border: none;
-}
-.hamburguesa-fondo-negro {
-    background-color: #181818;
-    color: #F5F3EE;
-}
-.hamburguesa div li a {
-    padding: 10px;
-}
-.hamburguesa div li a:hover {
-    border-radius: 10px;
-    background-color: #E2FFA4;
-}
-
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -374,6 +348,52 @@ form input[type="reset"]:hover{
 }
 
 /* CSS del header */
+
+/* MENÚ HAMBURGUESA FONDO CLARO */
+.hamburguesa {
+    background-color: #F5F3EE;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+.hamburguesa div li a {
+    padding: 10px;
+}
+.hamburguesa div li a:hover {
+    border-radius: 10px;
+    background-color: #E2FFA4;
+}
+.boton-hamburguesa {
+    border: none;
+}
+.boton-hamburguesa:hover {
+    background-color: #F5FFDE;
+    border-radius: 15px;
+    border: none;
+}
+
+/* MENÚ HAMBURGUESA FONDO OSCURO */
+.hamburguesa-fondo-negro {
+    background-color: #181818;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+.hamburguesa-fondo-negro div li a {
+    padding: 10px;
+}
+.hamburguesa-fondo-negro div li a:hover {
+    border-radius: 10px;
+    background-color: #232323;
+}
+.boton-hamburguesa-fondo-negro {
+    border: none;
+}
+.boton-hamburguesa-fondo-negro:hover {
+    background-color: #232323;
+    border-radius: 15px;
+    border: none;
+}
 
 .logo-header {
     position: fixed;
