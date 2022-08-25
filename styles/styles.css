@@ -269,7 +269,7 @@ form input[type="reset"]:hover{
 }
 .boton-hamburguesa:hover {
     background-color: #F5FFDE;
-    border-radius: 15px;
+    border-radius: 7px;
     border: none;
 }
 
