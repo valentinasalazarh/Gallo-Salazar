@@ -21,12 +21,12 @@
     <link href="http://fonts.cdnfonts.com/css/wix-madefor-text" rel="stylesheet">
 </head>
 
-<body>
+<body class="container-fluid">
     <!-- CABECERA -->
-    <header class="barra-header">
+    <header class="barra-header row">
 
         <!-- MENÚ HAMBURGUESA -->
-        <div class="hamburguesa">
+        <div class="hamburguesa col-12">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <button class="boton-hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,13 +45,13 @@
                                 <a class="nav-link" href="./about-us.html">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./what-we-do.html">What we do</a>
+                                <a class="nav-link active" href="./what-we-do.html">What we do</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./contact.html">Contact</a>
+                                <a class="nav-link" href="./contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -59,50 +59,57 @@
             </nav>
         </div>
 
-        <a href="../index.html">
-            <div>
-                <img class="logo-header" src="../images/logo-gallo-principal.svg" alt="Logo de GALLO">
-            </div>
-        </a>
-        <nav class="navegacion">
-            <ul class="links-navegacion">
-                <li>
-                    <a href="../index.html">
-                        <p>Home</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="./about-us.html">
-                        <p>About us</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="./what-we-do.html">
-                        <p>What we do</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="./portfolio.html">
-                        <p>Portfolio</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="./contact.html">
-                        <img src="../images/contact.svg" alt="icono de contact">
-                        <p>Contact</p>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <a href="https://wa.link/rpb7yg" target="_blank">
-            <div class="boton-whatsapp">
-                <h6 class="titulos">wa</h6>
-            </div>
-        </a>
+        <!-- NAVBAR DESKTOP -->
+        <div class="col">
+            <a href="../index.html">
+                <div>
+                    <img class="logo-header" src="../images/logo-gallo-principal.svg" alt="Logo de GALLO">
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <nav class="navegacion">
+                <ul class="links-navegacion">
+                    <li>
+                        <a href="../index.html">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./about-us.html">
+                            <p>About us</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./what-we-do.html">
+                            <p>What we do</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./portfolio.html">
+                            <p>Portfolio</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">
+                            <img src="../images/contact.svg" alt="icono de contact">
+                            <p>Contact</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col">
+            <a href="https://wa.link/rpb7yg" target="_blank">
+                <div class="boton-whatsapp">
+                    <h6 class="titulos">wa</h6>
+                </div>
+            </a>
+        </div>
     </header>
 
     <!-- CONTENIDO -->
-    <main class="main-contact">
+    <main class="main-contact row">
         <section class="contact-1">
             <h1 class="titulos-portadas">Hey!<br>¿Te animas a empezar tu sueño?</h1>
             <div class="info-contact">
