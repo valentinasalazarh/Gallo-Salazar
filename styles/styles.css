@@ -126,6 +126,7 @@ a {
 }
 button {
     font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 1px;
     font-weight: 100;
     border: none;
     border-bottom: 1px solid #000000;
