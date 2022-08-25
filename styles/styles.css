@@ -259,6 +259,7 @@ form input[type="reset"]:hover{
 }
 .hamburguesa div li a {
     padding: 10px;
+    text-align: center;
 }
 .hamburguesa div li a:hover {
     border-radius: 10px;
