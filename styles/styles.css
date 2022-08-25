@@ -83,6 +83,14 @@ footer {
     font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 100;
 }
+.boton-hamburguesa {
+    border: none;
+}
+.boton-hamburguesa:hover {
+    background-color: #F5FFDE;
+    border-radius: 15px;
+    border: none;
+}
 .hamburguesa-fondo-negro {
     background-color: #181818;
     color: #F5F3EE;
