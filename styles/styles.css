@@ -356,8 +356,8 @@ main {
 .titulo-portada-contact {
     font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 100;
-    font-size: 80px;
-    line-height: 70px;
+    font-size: 45px;
+    line-height: 50px;
     padding-top: 130px;
 }
 .dreams {
@@ -767,6 +767,10 @@ footer {
         font-size: 90px;
         line-height: 100px;
         padding-top: 80px;
+    }
+    .titulo-portada-contact {
+        font-size: 70px;
+        line-height: 70px;
     }
     .video-portada {
         left: -450px;
