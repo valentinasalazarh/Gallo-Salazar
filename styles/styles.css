@@ -553,14 +553,6 @@ footer {
 }
 
 /* CSS DE CONTACT */
-.main-contact {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-areas:
-    "contact-1"
-    "contact-2";
-    row-gap: 50px;
-}
 .mail-tel-contact ul {
     display: flex;
     flex-flow: column nowrap;
@@ -580,12 +572,11 @@ footer {
 }
 .contact-1 {
     padding: 50px;
-    grid-area: contact-1;
+    background-color: #F5F3EE;
 }
 .contact-2 {
     padding: 50px;
     background-color: #181818;
-    grid-area: contact-2;
     color: #ffffff;
 }
 .info-contact div {
@@ -844,15 +835,8 @@ footer {
     }
 
     /* CONTACT */
-    .main-contact {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100%;
-        grid-template-areas:
-        "contact-1 contact-2";
-    }
     .contact-1 {
-        padding: 50px 50px 50px 100px;
+        padding: 100px 50px 50px 100px;
     }
     .contact-2 {
         padding: 120px 80px 50px 80px;
@@ -897,9 +881,5 @@ footer {
     }
     .grid-portfolio-index {
         margin-top: 70px;
-    }
-    /* CONTACT */
-    .main-contact {
-        grid-template-rows: 100vh;
     }
 }
