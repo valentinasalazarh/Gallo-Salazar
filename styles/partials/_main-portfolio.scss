@@ -2,3 +2,23 @@
     background-color: #181818;
     padding: 50px;
 }
+
+/* Media queries tablet */
+
+@media screen and (min-width: 768px) {
+    .portfolio-grid {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+}
+
+/* Media queries desktop pequeño */
+
+@media screen and (min-width:1250px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+}

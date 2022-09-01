@@ -18,3 +18,51 @@
 .servicios-futuros img {
     width: 25%;
 }
+
+/* Media queries tablet */
+
+@media screen and (min-width: 768px) {
+    .servicios-actuales {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+    }
+    .servicio-individual {
+        text-align: left;
+        display: flex;
+    }
+    .servicio-individual img {
+        width: 80px;
+        margin: 10px;
+    }
+    .servicios-futuros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+    }
+    .servicio-futuro-individual {
+        margin: 0px 50px 0px 50px
+    }
+    .servicio-futuro-individual img {
+        margin: 10px;
+    }
+}
+
+/* Media queries desktop pequeño */
+
+@media screen and (min-width:1250px) {
+    .servicios-actuales {
+        padding: 0px 200px 0px 200px;
+    }
+    .servicios-futuros {
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        align-items: center;
+        padding: 20px 100px 20px 100px;
+    }
+    .servicio-futuro-individual {
+        margin: 0px 50px 0px 50px
+    }
+}

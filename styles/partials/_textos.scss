@@ -49,3 +49,64 @@ p {
     line-height: 50px;
     padding-top: 130px;
 }
+
+/* Media queries tablet */
+
+@media screen and (min-width: 768px) {
+    .parrafo-50 {
+        width: 50%;
+    }
+    .titulos-portadas {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .texto-index {
+        grid-area: texto-index;
+        z-index: 1;
+    }
+}
+
+/* Media queries desktop pequeño */
+
+@media screen and (min-width:1250px) {
+    .parrafo-50 {
+        padding-top: 20px;
+        width: 40%;
+    }
+    .titulos-portadas {
+        font-family: 'Wix Madefor Display', sans-serif;
+        font-weight: 100;
+        font-size: 90px;
+        line-height: 100px;
+        padding-top: 80px;
+    }
+    .titulo-portada-contact {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .titulos-gigantes {
+        font-size: 80px;
+        line-height: 80px;
+        padding-right: 20px;
+    }
+}
+
+/* Media queries desktop mediano */
+
+@media screen and (min-width:1550px) {
+    .titulos-portadas {
+        font-size: 120px;
+        line-height: 140px;
+    }
+}
+
+/* Media queries desktop grande (iMac 24") */
+
+@media screen and (min-width:1980px) {
+    p {
+        font-size: 17px;
+    }
+    .titulos-portadas {
+        font-size: 140px;
+    }
+}

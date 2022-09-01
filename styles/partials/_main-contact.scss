@@ -27,3 +27,22 @@
 .info-contact div {
     padding: 10px 0px 10px 0px;
 }
+
+/* Media queries tablet */
+
+@media screen and (min-width: 768px) {
+    .mail-tel-contact h4{
+        font-size: 30px;
+    }
+}
+
+/* Media queries desktop pequeño */
+
+@media screen and (min-width:1250px) {
+    .contact-1 {
+        padding: 100px 50px 50px 100px;
+    }
+    .contact-2 {
+        padding: 120px 80px 50px 80px;
+    }
+}

@@ -45,3 +45,91 @@
 #card-hide {
     display: none;
 }
+
+/* Media queries tablet */
+
+@media screen and (min-width: 768px) {
+    .video-portada {
+        grid-area: video-portada;
+        width: 440px;
+        position: absolute;
+        left: -190px;
+        top: -20px;
+    }
+    .core-process-index {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        padding: 20px 40px 20px 40px;
+        z-index: 1;
+        background-color: #ffffff;
+        border-radius: 20px;
+        grid-area: core-process-index;
+    }
+    .core-process-index div {
+        justify-content: start;
+    }
+    .grid-portfolio-index {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+}
+
+/* Media queries desktop pequeño */
+
+@media screen and (min-width:1250px) {
+    .video-portada {
+        left: -450px;
+        top: 10px;
+        width: 550px;
+        margin-bottom: 30px;
+    }
+    .core-process-index {
+        z-index: 1;
+        left: -20px;
+        top: 5px;
+        background-color: transparent;
+        grid-area: core-process-index;
+    }
+    .portfolio-index {
+        padding: 110px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+    .grid-portfolio-index {
+        justify-content: center;
+    }
+}
+
+/* Media queries desktop mediano */
+
+@media screen and (min-width:1550px) {
+    .video-portada {
+        left: -450px;
+        top: 10px;
+        width: 670px;
+        margin-bottom: 50px;
+    }
+    #card-hide {
+        display: block;
+    }
+}
+
+/* Media queries desktop grande (iMac 24") */
+
+@media screen and (min-width:1980px) {
+    .video-portada {
+        left: -650px;
+        top: 10px;
+        width: 800px;
+        margin-bottom: 50px;
+    }
+    #card-hide {
+        display: block;
+    }
+    .grid-portfolio-index {
+        margin-top: 70px;
+    }
+}

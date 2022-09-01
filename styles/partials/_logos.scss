@@ -12,3 +12,12 @@
     width: 100%;
 }
 
+/* Media queries tablet */
+
+@media screen and (min-width: 768px) {
+    .logo-header {
+        width: 130px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+}

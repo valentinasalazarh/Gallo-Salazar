@@ -10,3 +10,34 @@
     background-color: #181818;
     color: #ffffff;
 }
+
+/* Media queries tablet */
+
+@media screen and (min-width: 768px) {
+    .portadas {
+        position: relative;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas:
+        "texto-index core-process-index"
+        "texto-index video-portada";
+    }
+}
+
+/* Media queries desktop pequeño */
+
+@media screen and (min-width:1250px) {
+    .portadas {
+        padding: 110px;
+        padding-top: 140px;
+        grid-template-columns: 80% 20%;
+        grid-template-rows: 50% 50%;
+    }
+    .portadas-secundarias {
+        padding: 50px 200px 50px 200px;
+    }
+    .portada-portfolio {
+        padding: 130px 100px 20px 100px;
+    }
+}

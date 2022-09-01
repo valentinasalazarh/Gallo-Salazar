@@ -81,3 +81,41 @@
 .navbar-footer a {
     color: #ffffff;
 }
+
+/* Media queries large */
+
+@media screen and (min-width: 992px) {
+    .hamburguesa {
+        display: none;
+    }
+    .hamburguesa-fondo-negro {
+        display: none;
+    }
+    .links-navegacion {
+        display: flex;
+        flex-flow: row nowrap;
+        list-style-type: none;
+        background-color: #ffffff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .links-navegacion a {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        margin: 0px 10px 0px 10px;
+    }
+    .links-navegacion a img {
+        padding-right: 10px;
+    }
+    .links-navegacion a p {
+        font-family: 'Wix Madefor Display', sans-serif;
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+    .links-navegacion a:hover {
+        margin-top: 3px;
+        transition: 0.5s;
+        color: #0025FF;
+    }
+}

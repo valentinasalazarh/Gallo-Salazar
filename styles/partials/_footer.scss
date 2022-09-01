@@ -27,3 +27,14 @@ footer {
 .redes-sociales a:hover {
     text-decoration: underline;
 }
+
+/* Media queries desktop pequeño */
+
+@media screen and (min-width:1250px) {
+    footer {
+        padding: 50px 150px 50px 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
