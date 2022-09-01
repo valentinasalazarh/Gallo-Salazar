@@ -5,22 +5,26 @@
     font-family: 'Wix Madefor Display', sans-serif;
     font-size: 12px;
     font-weight: 100;
-}
-.hamburguesa div li a {
-    padding: 10px;
-    text-align: center;
-}
-.hamburguesa div li a:hover {
-    border-radius: 10px;
-    background-color: #F5FFDE;
+    div {
+        li {
+            a {
+                padding: 10px;
+                text-align: center;
+                &:hover {
+                    border-radius: 10px;
+                    background-color: #F5FFDE;
+                }
+            }
+        }
+    }
 }
 .boton-hamburguesa {
     border: none;
-}
-.boton-hamburguesa:hover {
-    background-color: #F5FFDE;
-    border-radius: 7px;
-    border: none;
+    &:hover {
+        background-color: #F5FFDE;
+        border-radius: 7px;
+        border: none;
+    }
 }
 
 /* Menú hamburguesa fondo oscuro */
@@ -30,21 +34,26 @@
     font-family: 'Wix Madefor Display', sans-serif;
     font-size: 12px;
     font-weight: 100;
-}
-.hamburguesa-fondo-negro div li a {
-    padding: 10px;
-}
-.hamburguesa-fondo-negro div li a:hover {
-    border-radius: 10px;
-    background-color: #232323;
+    div {
+        li {
+            a {
+                padding: 10px;
+                text-align: center;
+                &:hover {
+                    border-radius: 10px;
+                    background-color: #232323;
+                }
+            }
+        }
+    }
 }
 .boton-hamburguesa-fondo-negro {
     border: none;
-}
-.boton-hamburguesa-fondo-negro:hover {
-    background-color: #232323;
-    border-radius: 15px;
-    border: none;
+    &:hover {
+        background-color: #232323;
+        border-radius: 15px;
+        border: none;
+    }
 }
 
 /* Navbar en desktop */
@@ -74,12 +83,12 @@
     color: #ffffff;
     text-align: center;
     margin: 10px 0px 10px 0px;
-}
-.navbar-footer a:hover {
-    text-decoration: underline;
-}
-.navbar-footer a {
-    color: #ffffff;
+    a {
+        color: #ffffff;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 /* Media queries large */
@@ -98,24 +107,24 @@
         background-color: #ffffff;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-    }
-    .links-navegacion a {
-        display: flex;
-        align-items: center;
-        padding: 5px;
-        margin: 0px 10px 0px 10px;
-    }
-    .links-navegacion a img {
-        padding-right: 10px;
-    }
-    .links-navegacion a p {
-        font-family: 'Wix Madefor Display', sans-serif;
-        letter-spacing: 1px;
-        font-size: 10px;
-    }
-    .links-navegacion a:hover {
-        margin-top: 3px;
-        transition: 0.5s;
-        color: #0025FF;
+        a {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            margin: 0px 10px 0px 10px;
+            img {
+                padding-right: 10px;
+            }
+            p {
+                font-family: 'Wix Madefor Display', sans-serif;
+                letter-spacing: 1px;
+                font-size: 10px;
+                &:hover {
+                    margin-top: 3px;
+                    transition: 0.5s;
+                    color: #0025FF;
+                }
+            }
+        }
     }
 }

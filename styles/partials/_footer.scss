@@ -19,13 +19,13 @@ footer {
     font-size: 15px;
     letter-spacing: 1px;
     list-style-type: none;
-}
-.redes-sociales a {
-    padding: 20px;
-    color: #ffffff;
-}
-.redes-sociales a:hover {
-    text-decoration: underline;
+    a {
+        padding: 20px;
+        color: #ffffff;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 /* Media queries desktop pequeño */

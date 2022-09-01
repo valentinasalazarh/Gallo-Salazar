@@ -11,22 +11,22 @@ button {
     display: flex;
     align-items: center;
     background-color: transparent;
+    &:hover {
+        border-bottom: 1px solid #0025FF;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #0025FF;
+        cursor: pointer;
+        transition: 0.7s;
+    }
 }
-button.blanco {
+.blanco {
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
-}
-button.blanco:hover {
-    color: #E2FFA4;
-    border-bottom: 1px solid #E2FFA4;
-}
-button:hover {
-    border-bottom: 1px solid #0025FF;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #0025FF;
-    cursor: pointer;
-    transition: 0.7s;
+    &:hover {
+        color: #E2FFA4;
+        border-bottom: 1px solid #E2FFA4;
+    }
 }
 .chevron {
     width: 20px;
@@ -35,10 +35,10 @@ button:hover {
 #wa-portfolio {
     background-color: #F5F3EE;
     color: #000000;
-}
-#wa-portfolio:hover {
-    background-color: #E2FFA9;
-    color: #000000;
+    &:hover {
+        background-color: #E2FFA9;
+        color: #000000;
+    }
 }
 
 /* botones form */
@@ -64,10 +64,10 @@ button:hover {
     letter-spacing: 1px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-}
-.boton-whatsapp:hover {
-    color: #000000;
-    background-color: #E2FFA4;
-    transition: 0.5s;
-    width: 60px;
+    &:hover {
+        color: #000000;
+        background-color: #E2FFA4;
+        transition: 0.5s;
+        width: 60px;
+    }
 }

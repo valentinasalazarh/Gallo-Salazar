@@ -1,19 +1,21 @@
-.mail-tel-contact ul {
-    display: flex;
-    flex-flow: column nowrap;
-    list-style-type: none;
-}
-.mail-tel-contact a {
-    padding: 5px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.mail-tel-contact a:hover {
-    background-color: #E2FFA4;
-    border-radius: 20px;
-    padding-left: 20px;
-    transition: 0.8s;
+.mail-tel-contact {
+    ul {
+        display: flex;
+        flex-flow: column nowrap;
+        list-style-type: none;
+    }
+    a {
+        padding: 5px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &:hover {
+            background-color: #E2FFA4;
+            border-radius: 20px;
+            padding-left: 20px;
+            transition: 0.8s;
+        }
+    }
 }
 .contact-1 {
     padding: 50px;
@@ -24,15 +26,19 @@
     background-color: #181818;
     color: #ffffff;
 }
-.info-contact div {
-    padding: 10px 0px 10px 0px;
+.info-contact {
+    div {
+        padding: 10px 0px 10px 0px;
+    }
 }
 
 /* Media queries tablet */
 
 @media screen and (min-width: 768px) {
-    .mail-tel-contact h4{
-        font-size: 30px;
+    .mail-tel-contact {
+        h4 {
+            font-size: 30px;
+        }
     }
 }
 
