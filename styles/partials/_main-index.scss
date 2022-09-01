@@ -1,0 +1,47 @@
+.punto-azul {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #0025FF;
+}
+.punto-negro {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #000000;
+}
+.punto-verde {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #E2FFA4;
+}
+.dreams {
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-left: -20px;
+    line-height: 65px;
+}
+.video-portada {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    border-radius: 15px;
+}
+.core-process-index div {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.portfolio-index {
+    padding: 50px;
+    color: #ffffff;
+    background-color: #181818;
+}
+#card-hide {
+    display: none;
+}

@@ -1,0 +1,22 @@
+.cards-portfolio img {
+    width: 100%;
+    border-radius: 20px;
+}
+.cards-portfolio section {
+    position: relative;
+    z-index: 100;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: -80px;
+    z-index: 1;
+    background-color: #F5F3EE;
+    color: #000000;
+}
+.cards-portfolio div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards-portfolio {
+    padding: 15px 0px 15px 0px;
+}

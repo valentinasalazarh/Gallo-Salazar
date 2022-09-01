@@ -1,0 +1,73 @@
+/* botones generales */
+
+button {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 100;
+    border: none;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    padding: 10px;
+    margin: 10px 0px 15px 0px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+button.blanco {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+button.blanco:hover {
+    color: #E2FFA4;
+    border-bottom: 1px solid #E2FFA4;
+}
+button:hover {
+    border-bottom: 1px solid #0025FF;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #0025FF;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.chevron {
+    width: 20px;
+    padding: 3px;
+}
+#wa-portfolio {
+    background-color: #F5F3EE;
+    color: #000000;
+}
+#wa-portfolio:hover {
+    background-color: #E2FFA9;
+    color: #000000;
+}
+
+/* botones form */
+
+.botones-formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* botones del header */
+
+.boton-whatsapp {
+    position: fixed;
+    top: 550px;
+    z-index: 100;
+    left: 0;
+    padding: 20px;
+    width: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.boton-whatsapp:hover {
+    color: #000000;
+    background-color: #E2FFA4;
+    transition: 0.5s;
+    width: 60px;
+}
