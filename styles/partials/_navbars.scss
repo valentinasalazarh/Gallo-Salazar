@@ -17,14 +17,14 @@
             }
         }
     }
-}
-.boton-hamburguesa {
-    border: none;
-    background-color: $gris-oscuro;
-    border-radius: 7px;
-    &:hover {
-        border-radius: 7px;
+    .boton-hamburguesa {
         border: none;
+        background-color: $gris-oscuro;
+        border-radius: 7px;
+        &:hover {
+            border-radius: 7px;
+            border: none;
+        }
     }
 }
 
@@ -47,14 +47,14 @@
             }
         }
     }
-}
-.boton-hamburguesa-fondo-negro {
-    border: none;
-    background-color: $beige;
-    border-radius: 7px;
-    &:hover {
-        border-radius: 7px;
+    .boton-hamburguesa-fondo-negro {
         border: none;
+        background-color: $beige;
+        border-radius: 7px;
+        &:hover {
+            border-radius: 7px;
+            border: none;
+        }
     }
 }
 
@@ -65,9 +65,9 @@
     top: 30px;
     z-index: 100;
     left: 0;
-}
-.links-navegacion {
-    display: none;
+    .links-navegacion {
+        display: none;
+    }
 }
 
 /* Navbar del footer */
@@ -76,19 +76,19 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-.navbar-footer {
-    font-family: $wix;
-    font-weight: 300;
-    font-size: 12px;
-    list-style-type: none;
-    color: $blanco;
-    text-align: center;
-    margin: 10px 0px 10px 0px;
-    a {
+    .navbar-footer {
+        font-family: $wix;
+        font-weight: 300;
+        font-size: 12px;
+        list-style-type: none;
         color: $blanco;
-        &:hover {
-            text-decoration: underline;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+        a {
+            color: $blanco;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
@@ -109,22 +109,24 @@
         background-color: $blanco;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        a {
-            display: flex;
-            align-items: center;
-            padding: 5px;
-            margin: 0px 10px 0px 10px;
-            img {
-                padding-right: 10px;
-            }
-            p {
-                font-family: $wix;
-                letter-spacing: 1px;
-                font-size: 10px;
-                &:hover {
-                    padding-top: 3px;
-                    transition: 0.5s;
-                    color: $azul;
+        li {
+            a {
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                margin: 0px 10px 0px 10px;
+                img {
+                    padding-right: 10px;
+                }
+                p {
+                    font-family: $wix;
+                    letter-spacing: 1px;
+                    font-size: 10px;
+                    &:hover {
+                        padding-top: 3px;
+                        transition: 0.5s;
+                        color: $azul;
+                    }
                 }
             }
         }

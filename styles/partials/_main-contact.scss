@@ -3,17 +3,19 @@
         display: flex;
         flex-flow: column nowrap;
         list-style-type: none;
-    }
-    a {
-        padding: 5px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        &:hover {
-            background-color: $verde;
-            border-radius: 20px;
-            padding-left: 20px;
-            transition: 0.8s;
+        li {
+            a {
+                padding: 5px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                &:hover {
+                    background-color: $verde;
+                    border-radius: 20px;
+                    padding-left: 20px;
+                    transition: 0.8s;
+                }
+            }
         }
     }
 }
@@ -36,8 +38,14 @@
 
 @media screen and (min-width: 768px) {
     .mail-tel-contact {
-        h4 {
-            font-size: 30px;
+        ul {
+            li {
+                a {
+                    h5 {
+                        font-size: 25px;
+                    }
+                }
+            }
         }
     }
 }

@@ -94,15 +94,6 @@ button:hover {
   padding: 3px;
 }
 
-#wa-portfolio {
-  background-color: #F5F3EE;
-  color: #000;
-}
-#wa-portfolio:hover {
-  background-color: #E2FFA4;
-  color: #000;
-}
-
 /* botones form */
 .botones-formulario {
   display: flex;
@@ -132,6 +123,15 @@ button:hover {
   width: 60px;
 }
 
+#wa-portfolio {
+  background-color: #F5F3EE;
+  color: #000;
+}
+#wa-portfolio:hover {
+  background-color: #E2FFA4;
+  color: #000;
+}
+
 .cards-portfolio {
   padding: 15px 0px 15px 0px;
 }
@@ -149,7 +149,7 @@ button:hover {
   background-color: #F5F3EE;
   color: #000;
 }
-.cards-portfolio div {
+.cards-portfolio section div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -166,8 +166,7 @@ footer {
   color: #fff;
   background-color: #181818;
 }
-
-#follow-us {
+footer div #follow-us {
   position: block;
   margin: 0 auto;
   width: 50%;
@@ -175,8 +174,7 @@ footer {
   border-bottom: 1px solid #fff;
   text-align: center;
 }
-
-.redes-sociales {
+footer div .redes-sociales {
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -185,11 +183,11 @@ footer {
   letter-spacing: 1px;
   list-style-type: none;
 }
-.redes-sociales a {
+footer div .redes-sociales li a {
   padding: 20px;
   color: #fff;
 }
-.redes-sociales a:hover {
+footer div .redes-sociales li a:hover {
   text-decoration: underline;
 }
 
@@ -313,6 +311,9 @@ a {
   text-decoration: none;
   color: #000;
 }
+a:hover {
+  color: #000;
+}
 
 .logo-header {
   position: fixed;
@@ -360,7 +361,7 @@ a {
 .columnas-about-us div {
   padding: 10px;
 }
-.columnas-about-us img {
+.columnas-about-us div img {
   width: 50%;
   padding-bottom: 15px;
   display: block;
@@ -374,7 +375,7 @@ a {
 .columnas-core-process div {
   padding: 10px;
 }
-.columnas-core-process img {
+.columnas-core-process div img {
   width: 30%;
   padding-bottom: 15px;
   display: block;
@@ -422,13 +423,13 @@ a {
   flex-flow: column nowrap;
   list-style-type: none;
 }
-.mail-tel-contact a {
+.mail-tel-contact ul li a {
   padding: 5px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.mail-tel-contact a:hover {
+.mail-tel-contact ul li a:hover {
   background-color: #E2FFA4;
   border-radius: 20px;
   padding-left: 20px;
@@ -452,8 +453,8 @@ a {
 
 /* Media queries tablet */
 @media screen and (min-width: 768px) {
-  .mail-tel-contact h4 {
-    font-size: 30px;
+  .mail-tel-contact ul li a h5 {
+    font-size: 25px;
   }
 }
 /* Media queries desktop pequeño */
@@ -465,27 +466,6 @@ a {
     padding: 120px 80px 50px 80px;
   }
 }
-.punto-azul {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background-color: #0025FF;
-}
-
-.punto-negro {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background-color: #000;
-}
-
-.punto-verde {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background-color: #E2FFA4;
-}
-
 .dreams {
   background-color: #fff;
   border-radius: 100px;
@@ -508,6 +488,24 @@ a {
   margin: 10px;
   justify-content: space-evenly;
   align-items: center;
+}
+.core-process-index div .punto-azul {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #0025FF;
+}
+.core-process-index div .punto-negro {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #000;
+}
+.core-process-index div .punto-verde {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #E2FFA4;
 }
 
 .portfolio-index {
@@ -651,11 +649,11 @@ a {
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
   }
-  .servicio-individual {
+  .servicios-actuales .servicio-individual {
     text-align: left;
     display: flex;
   }
-  .servicio-individual img {
+  .servicios-actuales .servicio-individual img {
     width: 80px;
     margin: 10px;
   }
@@ -665,10 +663,10 @@ a {
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
   }
-  .servicio-futuro-individual {
+  .servicios-futuros .servicio-futuro-individual {
     margin: 0px 50px 0px 50px;
   }
-  .servicio-futuro-individual img {
+  .servicios-futuros .servicio-futuro-individual img {
     margin: 10px;
   }
 }
@@ -683,7 +681,7 @@ a {
     align-items: center;
     padding: 20px 100px 20px 100px;
   }
-  .servicio-futuro-individual {
+  .servicios-futuros .servicio-futuro-individual {
     margin: 0px 50px 0px 50px;
   }
 }
@@ -702,13 +700,12 @@ a {
   border-radius: 10px;
   background-color: #F5FFDE;
 }
-
-.boton-hamburguesa {
+.hamburguesa .boton-hamburguesa {
   border: none;
   background-color: #181818;
   border-radius: 7px;
 }
-.boton-hamburguesa:hover {
+.hamburguesa .boton-hamburguesa:hover {
   border-radius: 7px;
   border: none;
 }
@@ -728,13 +725,12 @@ a {
   border-radius: 10px;
   background-color: #232323;
 }
-
-.boton-hamburguesa-fondo-negro {
+.hamburguesa-fondo-negro .boton-hamburguesa-fondo-negro {
   border: none;
   background-color: #F5F3EE;
   border-radius: 7px;
 }
-.boton-hamburguesa-fondo-negro:hover {
+.hamburguesa-fondo-negro .boton-hamburguesa-fondo-negro:hover {
   border-radius: 7px;
   border: none;
 }
@@ -746,8 +742,7 @@ a {
   z-index: 100;
   left: 0;
 }
-
-.links-navegacion {
+.navegacion .links-navegacion {
   display: none;
 }
 
@@ -757,8 +752,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
 }
-
-.navbar-footer {
+.div-navbar-footer .navbar-footer {
   font-family: "Wix Madefor Display", sans-serif;
   font-weight: 300;
   font-size: 12px;
@@ -767,10 +761,10 @@ a {
   text-align: center;
   margin: 10px 0px 10px 0px;
 }
-.navbar-footer a {
+.div-navbar-footer .navbar-footer a {
   color: #fff;
 }
-.navbar-footer a:hover {
+.div-navbar-footer .navbar-footer a:hover {
   text-decoration: underline;
 }
 
@@ -790,21 +784,21 @@ a {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
   }
-  .links-navegacion a {
+  .links-navegacion li a {
     display: flex;
     align-items: center;
     padding: 5px;
     margin: 0px 10px 0px 10px;
   }
-  .links-navegacion a img {
+  .links-navegacion li a img {
     padding-right: 10px;
   }
-  .links-navegacion a p {
+  .links-navegacion li a p {
     font-family: "Wix Madefor Display", sans-serif;
     letter-spacing: 1px;
     font-size: 10px;
   }
-  .links-navegacion a p:hover {
+  .links-navegacion li a p:hover {
     padding-top: 3px;
     transition: 0.5s;
     color: #0025FF;

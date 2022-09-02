@@ -32,14 +32,6 @@ button {
     width: 20px;
     padding: 3px;
 }
-#wa-portfolio {
-    background-color: $beige;
-    color: $negro;
-    &:hover {
-        background-color: $verde;
-        color: $negro;
-    }
-}
 
 /* botones form */
 
@@ -69,5 +61,13 @@ button {
         background-color: $verde;
         transition: 0.5s;
         width: 60px;
+    }
+}
+#wa-portfolio {
+    background-color: $beige;
+    color: $negro;
+    &:hover {
+        background-color: $verde;
+        color: $negro;
     }
 }
