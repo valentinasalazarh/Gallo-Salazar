@@ -10,7 +10,7 @@
         justify-content: flex-start;
         align-items: center;
         &:hover {
-            background-color: #E2FFA4;
+            background-color: $verde;
             border-radius: 20px;
             padding-left: 20px;
             transition: 0.8s;
@@ -19,12 +19,12 @@
 }
 .contact-1 {
     padding: 50px;
-    background-color: #F5F3EE;
+    background-color: $beige;
 }
 .contact-2 {
     padding: 50px;
-    background-color: #181818;
-    color: #ffffff;
+    background-color: $gris-oscuro;
+    color: $blanco;
 }
 .info-contact {
     div {

@@ -1,8 +1,8 @@
 /* Menú hamburguesa fondo claro */
 
 .hamburguesa {
-    background-color: #F5F3EE;
-    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: $beige;
+    font-family: $wix;
     font-size: 12px;
     font-weight: 100;
     div {
@@ -12,7 +12,7 @@
                 text-align: center;
                 &:hover {
                     border-radius: 10px;
-                    background-color: #F5FFDE;
+                    background-color: $verde-claro;
                 }
             }
         }
@@ -21,7 +21,7 @@
 .boton-hamburguesa {
     border: none;
     &:hover {
-        background-color: #F5FFDE;
+        background-color: $blanco;
         border-radius: 7px;
         border: none;
     }
@@ -30,8 +30,8 @@
 /* Menú hamburguesa fondo oscuro */
 
 .hamburguesa-fondo-negro {
-    background-color: #181818;
-    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: $gris-oscuro;
+    font-family: $wix;
     font-size: 12px;
     font-weight: 100;
     div {
@@ -41,7 +41,7 @@
                 text-align: center;
                 &:hover {
                     border-radius: 10px;
-                    background-color: #232323;
+                    background-color: $gris-medio;
                 }
             }
         }
@@ -50,7 +50,7 @@
 .boton-hamburguesa-fondo-negro {
     border: none;
     &:hover {
-        background-color: #232323;
+        background-color: $gris-medio;
         border-radius: 15px;
         border: none;
     }
@@ -76,15 +76,15 @@
     align-items: center;
 }
 .navbar-footer {
-    font-family: 'Wix Madefor Display', sans-serif;
+    font-family: $wix;
     font-weight: 300;
     font-size: 12px;
     list-style-type: none;
-    color: #ffffff;
+    color: $blanco;
     text-align: center;
     margin: 10px 0px 10px 0px;
     a {
-        color: #ffffff;
+        color: $blanco;
         &:hover {
             text-decoration: underline;
         }
@@ -104,7 +104,7 @@
         display: flex;
         flex-flow: row nowrap;
         list-style-type: none;
-        background-color: #ffffff;
+        background-color: $blanco;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         a {
@@ -116,13 +116,13 @@
                 padding-right: 10px;
             }
             p {
-                font-family: 'Wix Madefor Display', sans-serif;
+                font-family: $wix;
                 letter-spacing: 1px;
                 font-size: 10px;
                 &:hover {
                     padding-top: 3px;
                     transition: 0.5s;
-                    color: #0025FF;
+                    color: $azul;
                 }
             }
         }

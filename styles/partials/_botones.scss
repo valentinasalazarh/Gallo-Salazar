@@ -1,31 +1,31 @@
 /* botones generales */
 
 button {
-    font-family: 'Wix Madefor Display', sans-serif;
+    font-family: $wix;
     font-weight: 100;
     border: none;
-    border-bottom: 1px solid #000000;
-    color: #000000;
+    border-bottom: 1px solid $negro;
+    color: $negro;
     padding: 10px;
     margin: 10px 0px 15px 0px;
     display: flex;
     align-items: center;
     background-color: transparent;
     &:hover {
-        border-bottom: 1px solid #0025FF;
+        border-bottom: 1px solid $azul;
         padding-left: 20px;
         padding-right: 20px;
-        color: #0025FF;
+        color: $azul;
         cursor: pointer;
         transition: 0.7s;
     }
 }
 .blanco {
-    color: #ffffff;
-    border-bottom: 1px solid #ffffff;
+    color: $blanco;
+    border-bottom: 1px solid $blanco;
     &:hover {
-        color: #E2FFA4;
-        border-bottom: 1px solid #E2FFA4;
+        color: $verde;
+        border-bottom: 1px solid $verde;
     }
 }
 .chevron {
@@ -33,11 +33,11 @@ button {
     padding: 3px;
 }
 #wa-portfolio {
-    background-color: #F5F3EE;
-    color: #000000;
+    background-color: $beige;
+    color: $negro;
     &:hover {
-        background-color: #E2FFA9;
-        color: #000000;
+        background-color: $verde;
+        color: $negro;
     }
 }
 
@@ -58,15 +58,15 @@ button {
     left: 0;
     padding: 20px;
     width: 50px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: $negro;
+    color: $blanco;
     font-size: 10px;
     letter-spacing: 1px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     &:hover {
-        color: #000000;
-        background-color: #E2FFA4;
+        color: $negro;
+        background-color: $verde;
         transition: 0.5s;
         width: 60px;
     }
