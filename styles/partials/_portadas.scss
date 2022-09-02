@@ -25,6 +25,18 @@
     }
 }
 
+/* Media queries large */
+
+@media screen and (min-width: 992px) {
+    .portadas {
+        padding-top: 200px;
+        padding-left: 150px;
+    }
+    .portada-portfolio, .portadas-secundarias {
+        padding-top: 120px;
+    }
+}
+
 /* Media queries desktop pequeño */
 
 @media screen and (min-width:1250px) {

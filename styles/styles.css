@@ -742,7 +742,8 @@ a:hover {
   z-index: 100;
   left: 0;
 }
-.navegacion .links-navegacion {
+
+.links-navegacion {
   display: none;
 }
 
@@ -827,6 +828,16 @@ a:hover {
     grid-template-columns: 60% 40%;
     grid-template-rows: 50% 50%;
     grid-template-areas: "texto-index core-process-index" "texto-index video-portada";
+  }
+}
+/* Media queries large */
+@media screen and (min-width: 992px) {
+  .portadas {
+    padding-top: 200px;
+    padding-left: 150px;
+  }
+  .portada-portfolio, .portadas-secundarias {
+    padding-top: 120px;
   }
 }
 /* Media queries desktop pequeño */
