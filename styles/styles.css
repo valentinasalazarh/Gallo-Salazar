@@ -1,4 +1,58 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Wix Madefor Text";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextRegular.woff") format("woff");
+}
+@font-face {
+  font-family: "Wix Madefor Text";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Wix Madefor Text";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Wix Madefor Text";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Wix Madefor Text";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextXBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Wix Madefor Text";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextXBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Wix Madefor Display"), url("../fonts/assets/WixMadeforDisplayRegular.woff") format("woff");
+}
+@font-face {
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Wix Madefor Display"), url("../fonts/assets/WixMadeforDisplayBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Wix Madefor Display"), url("../fonts/assets/WixMadeforDisplayExtraBold.woff") format("woff");
+}
 /* botones generales */
 button {
   font-family: "Wix Madefor Display", sans-serif;
@@ -101,60 +155,6 @@ button:hover {
   .cards-portfolio {
     padding: 15px;
   }
-}
-@font-face {
-  font-family: "Wix Madefor Text";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextRegular.woff") format("woff");
-}
-@font-face {
-  font-family: "Wix Madefor Text";
-  font-style: italic;
-  font-weight: 400;
-  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Wix Madefor Text";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextBold.woff") format("woff");
-}
-@font-face {
-  font-family: "Wix Madefor Text";
-  font-style: italic;
-  font-weight: 700;
-  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextBoldItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Wix Madefor Text";
-  font-style: normal;
-  font-weight: 800;
-  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextXBold.woff") format("woff");
-}
-@font-face {
-  font-family: "Wix Madefor Text";
-  font-style: italic;
-  font-weight: 800;
-  src: local("Wix Madefor Text"), url("../fonts/assets/WixMadeforTextXBoldItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Wix Madefor Display";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Wix Madefor Display"), url("../fonts/assets/WixMadeforDisplayRegular.woff") format("woff");
-}
-@font-face {
-  font-family: "Wix Madefor Display";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Wix Madefor Display"), url("../fonts/assets/WixMadeforDisplayBold.woff") format("woff");
-}
-@font-face {
-  font-family: "Wix Madefor Display";
-  font-style: normal;
-  font-weight: 800;
-  src: local("Wix Madefor Display"), url("../fonts/assets/WixMadeforDisplayExtraBold.woff") format("woff");
 }
 footer {
   padding: 50px;
