@@ -705,9 +705,10 @@ a {
 
 .boton-hamburguesa {
   border: none;
+  background-color: #181818;
+  border-radius: 7px;
 }
 .boton-hamburguesa:hover {
-  background-color: #fff;
   border-radius: 7px;
   border: none;
 }
@@ -730,10 +731,11 @@ a {
 
 .boton-hamburguesa-fondo-negro {
   border: none;
+  background-color: #F5F3EE;
+  border-radius: 7px;
 }
 .boton-hamburguesa-fondo-negro:hover {
-  background-color: #232323;
-  border-radius: 15px;
+  border-radius: 7px;
   border: none;
 }
 
