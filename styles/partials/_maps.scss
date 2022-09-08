@@ -16,3 +16,9 @@ $colores: (
 /* Variables de tipografías */
 $wix: 'Wix Madefor Display', sans-serif;
 $parrafos: 'Montserrat', sans-serif;
+
+/* Variables de bordes */
+$borde-negro: 1px solid map-get($colores, negro);
+$borde-blanco: 1px solid map-get($colores, blanco);
+$borde-azul: 1px solid map-get($colores, azul);
+$borde-verde: 1px solid map-get($colores, verde);

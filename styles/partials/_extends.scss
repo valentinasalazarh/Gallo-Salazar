@@ -1,0 +1,16 @@
+%boton {
+    font-family: $wix;
+    font-weight: 100;
+    border: none;
+    padding: 10px;
+    margin: 10px 0px 15px 0px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    &:hover {
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+}

@@ -1,31 +1,20 @@
 /* botones generales */
-
 button {
-    font-family: $wix;
-    font-weight: 100;
-    border: none;
-    border-bottom: 1px solid map-get($colores, negro);
+    @extend %boton;
+    border-bottom: $borde-negro;
     color: map-get($colores, negro);
-    padding: 10px;
-    margin: 10px 0px 15px 0px;
-    display: flex;
-    align-items: center;
-    background-color: transparent;
     &:hover {
-        border-bottom: 1px solid map-get($colores, azul);
-        padding-left: 20px;
-        padding-right: 20px;
+        border-bottom: $borde-azul;
         color: map-get($colores, azul);
-        cursor: pointer;
-        transition: 0.7s;
     }
 }
 .blanco {
+    @extend %boton;
     color: map-get($colores, blanco);
-    border-bottom: 1px solid map-get($colores, blanco);
+    border-bottom: $borde-blanco;
     &:hover {
         color: map-get($colores, verde);
-        border-bottom: 1px solid map-get($colores, verde);
+        border-bottom: $borde-verde;
     }
 }
 .chevron {

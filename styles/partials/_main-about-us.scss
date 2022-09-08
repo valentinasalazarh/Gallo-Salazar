@@ -2,14 +2,10 @@
     padding: 50px;
 }
 #acrostico {
-    width: 70%;
-    display: block;
-    margin: 0 auto;
+    @include centrar (70%);
 }
 #formula {
-    width: 70%;
-    display: block;
-    margin: 0 auto;
+    @include centrar (60%);
 }
 .columnas-about-us {
     padding: 50px;
