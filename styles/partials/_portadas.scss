@@ -7,8 +7,8 @@
 }
 .portada-portfolio {
     padding: 0px 50px 10px 50px;
-    background-color: $gris-oscuro;
-    color: $blanco;
+    background-color: map-get($colores, gris-oscuro);
+    color: map-get($colores, blanco);
 }
 
 /* Media queries tablet */

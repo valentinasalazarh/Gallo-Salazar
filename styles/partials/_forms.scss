@@ -5,7 +5,7 @@ form {
     margin: 14px 0px 15px 0px;
     input {
         border: none;
-        background-color: $beige;
+        background-color: map-get($colores, hueso);
         font-family: $wix;
         font-weight: 300;
         font-size: 10px;
@@ -14,7 +14,7 @@ form {
         border-radius: 10px;
         &:focus {
             outline: none;
-            background-color: $verde;
+            background-color: map-get($colores, verde);
         }
     }
     span, label {
@@ -22,7 +22,7 @@ form {
     }
     select {
         border: none;
-        background-color: $beige;
+        background-color: map-get($colores, hueso);
         font-weight: 300;
         font-size: 10px;
         letter-spacing: 0.5px;
@@ -30,7 +30,7 @@ form {
         border-radius: 10px;
         &:hover {
             outline: none;
-            background-color: $verde;
+            background-color: map-get($colores, verde);
         }
     }
     textarea {
@@ -38,14 +38,14 @@ form {
         padding: 15px;
         border: none;
         border-radius: 15px;
-        background-color: $beige;
+        background-color: map-get($colores, hueso);
         font-family: $wix;
         font-weight: 300;
         font-size: 10px;
         letter-spacing: 0.5px;
         &:focus {
             outline: none;
-            background-color: $verde;
+            background-color: map-get($colores, verde);
         }
     }
     [type=radio] {
@@ -64,9 +64,9 @@ form {
         font-weight: 100;
         font-size: 13px;
         border: none;
-        border-bottom: 1px solid $blanco;
+        border-bottom: 1px solid map-get($colores, blanco);
         border-radius: 0px;
-        color: $blanco;
+        color: map-get($colores, blanco);
         width: 25%;
         padding: 10px;
         margin: 10px 0px 15px 0px;

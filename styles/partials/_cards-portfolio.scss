@@ -11,8 +11,8 @@
         border-radius: 20px;
         margin-top: -80px;
         z-index: 1;
-        background-color: $beige;
-        color: $negro;
+        background-color: map-get($colores, hueso);
+        color: map-get($colores, negro);
         div {
             display: flex;
             justify-content: space-between;

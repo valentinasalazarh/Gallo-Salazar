@@ -1,7 +1,7 @@
 /* Menú hamburguesa fondo claro */
 
 .hamburguesa {
-    background-color: $beige;
+    background-color: map-get($colores, hueso);
     font-family: $wix;
     font-size: 12px;
     font-weight: 100;
@@ -12,14 +12,14 @@
                 text-align: center;
                 &:hover {
                     border-radius: 10px;
-                    background-color: $verde-claro;
+                    background-color: map-get($colores, verde-claro);
                 }
             }
         }
     }
     .boton-hamburguesa {
         border: none;
-        background-color: $gris-oscuro;
+        background-color: map-get($colores, gris-oscuro);
         border-radius: 7px;
         &:hover {
             border-radius: 7px;
@@ -31,7 +31,7 @@
 /* Menú hamburguesa fondo oscuro */
 
 .hamburguesa-fondo-negro {
-    background-color: $gris-oscuro;
+    background-color: map-get($colores, gris-oscuro);
     font-family: $wix;
     font-size: 12px;
     font-weight: 100;
@@ -42,14 +42,14 @@
                 text-align: center;
                 &:hover {
                     border-radius: 10px;
-                    background-color: $gris-medio;
+                    background-color: map-get($colores, gris-medio);
                 }
             }
         }
     }
     .boton-hamburguesa-fondo-negro {
         border: none;
-        background-color: $beige;
+        background-color: map-get($colores, hueso);
         border-radius: 7px;
         &:hover {
             border-radius: 7px;
@@ -81,11 +81,11 @@
         font-weight: 300;
         font-size: 12px;
         list-style-type: none;
-        color: $blanco;
+        color: map-get($colores, blanco);
         text-align: center;
         margin: 10px 0px 10px 0px;
         a {
-            color: $blanco;
+            color: map-get($colores, blanco);
             &:hover {
                 text-decoration: underline;
             }
@@ -106,7 +106,7 @@
         display: flex;
         flex-flow: row nowrap;
         list-style-type: none;
-        background-color: $blanco;
+        background-color: map-get($colores, blanco);
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         li {
@@ -125,7 +125,7 @@
                     &:hover {
                         padding-top: 3px;
                         transition: 0.5s;
-                        color: $azul;
+                        color: map-get($colores, azul);
                     }
                 }
             }

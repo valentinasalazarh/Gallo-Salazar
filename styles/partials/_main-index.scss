@@ -1,5 +1,5 @@
 .dreams {
-    background-color: $blanco;
+    background-color: map-get($colores, blanco);
     border-radius: 100px;
     padding-right: 20px;
     padding-left: 20px;
@@ -23,26 +23,26 @@
             width: 10px;
             height: 10px;
             border-radius: 100%;
-            background-color: $azul;
+            background-color: map-get($colores, azul);
         }
         .punto-negro {
             width: 10px;
             height: 10px;
             border-radius: 100%;
-            background-color: $negro;
+            background-color: map-get($colores, negro);
         }
         .punto-verde {
             width: 10px;
             height: 10px;
             border-radius: 100%;
-            background-color: $verde;
+            background-color: map-get($colores, verde);
         }
     }
 }
 .portfolio-index {
     padding: 50px;
-    color: $blanco;
-    background-color: $gris-oscuro;
+    color: map-get($colores, blanco);
+    background-color: map-get($colores, gris-oscuro);
 }
 #card-hide {
     display: none;
@@ -64,7 +64,7 @@
         top: 30px;
         padding: 20px 40px 20px 40px;
         z-index: 1;
-        background-color: $blanco;
+        background-color: map-get($colores, blanco);
         border-radius: 20px;
         grid-area: core-process-index;
         div {

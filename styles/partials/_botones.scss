@@ -4,28 +4,28 @@ button {
     font-family: $wix;
     font-weight: 100;
     border: none;
-    border-bottom: 1px solid $negro;
-    color: $negro;
+    border-bottom: 1px solid map-get($colores, negro);
+    color: map-get($colores, negro);
     padding: 10px;
     margin: 10px 0px 15px 0px;
     display: flex;
     align-items: center;
     background-color: transparent;
     &:hover {
-        border-bottom: 1px solid $azul;
+        border-bottom: 1px solid map-get($colores, azul);
         padding-left: 20px;
         padding-right: 20px;
-        color: $azul;
+        color: map-get($colores, azul);
         cursor: pointer;
         transition: 0.7s;
     }
 }
 .blanco {
-    color: $blanco;
-    border-bottom: 1px solid $blanco;
+    color: map-get($colores, blanco);
+    border-bottom: 1px solid map-get($colores, blanco);
     &:hover {
-        color: $verde;
-        border-bottom: 1px solid $verde;
+        color: map-get($colores, verde);
+        border-bottom: 1px solid map-get($colores, verde);
     }
 }
 .chevron {
@@ -50,24 +50,24 @@ button {
     left: 0;
     padding: 20px;
     width: 50px;
-    background-color: $negro;
-    color: $blanco;
+    background-color: map-get($colores, negro);
+    color: map-get($colores, blanco);
     font-size: 10px;
     letter-spacing: 1px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     &:hover {
-        color: $negro;
-        background-color: $verde;
+        color: map-get($colores, negro);
+        background-color: map-get($colores, verde);
         transition: 0.5s;
         width: 60px;
     }
 }
 #wa-portfolio {
-    background-color: $beige;
-    color: $negro;
+    background-color: map-get($colores, hueso);
+    color: map-get($colores, negro);
     &:hover {
-        background-color: $verde;
-        color: $negro;
+        background-color: map-get($colores, verde);
+        color: map-get($colores, negro);
     }
 }

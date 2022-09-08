@@ -1,5 +1,5 @@
 .portfolio-grid {
-    background-color: $gris-oscuro;
+    background-color: map-get($colores, gris-oscuro);
     padding: 50px;
 }
 

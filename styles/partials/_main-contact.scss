@@ -10,7 +10,7 @@
                 justify-content: flex-start;
                 align-items: center;
                 &:hover {
-                    background-color: $verde;
+                    background-color: map-get($colores, verde);
                     border-radius: 20px;
                     padding-left: 20px;
                     transition: 0.8s;
@@ -21,12 +21,12 @@
 }
 .contact-1 {
     padding: 50px;
-    background-color: $beige;
+    background-color: map-get($colores, hueso);
 }
 .contact-2 {
     padding: 50px;
-    background-color: $gris-oscuro;
-    color: $blanco;
+    background-color: map-get($colores, gris-oscuro);
+    color: map-get($colores, blanco);
 }
 .info-contact {
     div {
