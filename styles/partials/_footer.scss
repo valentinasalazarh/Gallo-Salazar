@@ -37,8 +37,6 @@ footer {
 @media screen and (min-width:1250px) {
     footer {
         padding: 50px 150px 50px 150px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex ($direction: row, $justify: space-between, $align: center);
     }
 }

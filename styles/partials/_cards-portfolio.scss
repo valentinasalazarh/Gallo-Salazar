@@ -14,9 +14,7 @@
         background-color: map-get($colores, hueso);
         color: map-get($colores, negro);
         div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            @include flex ($direction: row, $justify: space-between, $align: center);
         }
     }
 }

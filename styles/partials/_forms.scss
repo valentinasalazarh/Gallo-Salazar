@@ -1,7 +1,6 @@
 form {
     font-family: $wix;
-    display: flex;
-    flex-direction: column;
+    @include flex ($direction: column, $justify: flex-start, $align: stretch);
     margin: 14px 0px 15px 0px;
     input {
         border: none;
@@ -70,8 +69,7 @@ form {
         width: 25%;
         padding: 10px;
         margin: 10px 0px 15px 0px;
-        display: flex;
-        align-items: center;
+        @include flex ($direction: row, $justify: space-between, $align: center);
         background-color: transparent;
         &:hover {
             padding-left: 20px;
@@ -84,12 +82,8 @@ form {
 
 .newsletter-formulario {
     padding-top: 20px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    @include flex ($direction: row, $justify: flex-end, $align: center);
 }
 .tratamiento-datos-formulario {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    @include flex ($direction: row, $justify: flex-end, $align: center);
 }

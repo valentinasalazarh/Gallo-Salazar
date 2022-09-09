@@ -25,9 +25,7 @@ button {
 /* botones form */
 
 .botones-formulario {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    @include flex ($direction: row, $justify: space-between, $align: flex-end);
 }
 
 /* botones del header */

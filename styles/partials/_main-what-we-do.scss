@@ -31,7 +31,8 @@
         align-items: center;
         .servicio-individual {
             text-align: left;
-            display: flex;
+            @include flex ($direction:row, $justify:space-between, $align:center);
+            flex-wrap: nowrap;
             img {
                 margin: 10px;
             }

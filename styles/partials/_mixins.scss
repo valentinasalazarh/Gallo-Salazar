@@ -5,3 +5,13 @@
 }
 /* Este Mixin está aplicado en ".acróstico" y ".fórmula" del partial main-about-us */
 /* Lo añado con este código: @include centrar (x);" */
+
+@mixin flex ($direction, $justify, $align) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+/* Este Mixin está aplicado en los Flex existentes en los 5 HTML */
+/* Lo añado con este código: @include flex ($direction:, $justify:, $align:);" */

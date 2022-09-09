@@ -14,11 +14,9 @@
 }
 .core-process-index {
     div {
-        display: flex;
-        flex-flow: row nowrap;
+        @include flex ($direction:row, $justify:space-evenly, $align:center);
+        flex-wrap: nowrap;
         margin: 10px;
-        justify-content: space-evenly;
-        align-items: center;
         .punto-azul {
             width: 10px;
             height: 10px;
@@ -72,9 +70,8 @@
         }
     }
     .grid-portfolio-index {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
+        @include flex ($direction:row, $justify:space-between, $align:center);
+        flex-wrap: nowrap;
     }
 }
 
@@ -96,9 +93,8 @@
     }
     .portfolio-index {
         padding: 110px;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
+        @include flex ($direction:row, $justify:space-between, $align:center);
+        flex-wrap: nowrap;
     }
     .grid-portfolio-index {
         justify-content: center;

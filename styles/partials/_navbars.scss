@@ -73,9 +73,7 @@
 /* Navbar del footer */
 
 .div-navbar-footer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    @include flex ($direction:row, $justify:space-evenly, $align:center);
     .navbar-footer {
         font-family: $wix;
         font-weight: 300;

@@ -6,9 +6,7 @@
         li {
             a {
                 padding: 5px;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
+                @include flex ($direction:row, $justify:flex-start, $align:center);
                 &:hover {
                     background-color: map-get($colores, verde);
                     border-radius: 20px;

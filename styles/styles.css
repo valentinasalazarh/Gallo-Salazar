@@ -4,6 +4,8 @@
 /* Variables de bordes */
 /* Este Mixin está aplicado en ".acróstico" y ".fórmula" del partial main-about-us */
 /* Lo añado con este código: @include centrar (x);" */
+/* Este Mixin está aplicado en los Flex existentes en los 5 HTML */
+/* Lo añado con este código: @include flex ($direction:, $justify:, $align:);" */
 .blanco, button {
   font-family: "Wix Madefor Display", sans-serif;
   font-weight: 100;
@@ -209,6 +211,8 @@ button:hover {
 /* botones form */
 .botones-formulario {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -263,6 +267,8 @@ button:hover {
 }
 .cards-portfolio section div {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -308,6 +314,8 @@ footer div .redes-sociales li a:hover {
   footer {
     padding: 50px 150px 50px 150px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -315,7 +323,10 @@ footer div .redes-sociales li a:hover {
 form {
   font-family: "Wix Madefor Display", sans-serif;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
   margin: 14px 0px 15px 0px;
 }
 form input {
@@ -386,6 +397,9 @@ form [type=submit], form [type=reset] {
   padding: 10px;
   margin: 10px 0px 15px 0px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-color: transparent;
 }
@@ -399,12 +413,16 @@ form [type=submit]:hover, form [type=reset]:hover {
 .newsletter-formulario {
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
 
 .tratamiento-datos-formulario {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
@@ -543,6 +561,8 @@ a:hover {
 .mail-tel-contact ul li a {
   padding: 5px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
@@ -601,10 +621,12 @@ a:hover {
 
 .core-process-index div {
   display: flex;
-  flex-flow: row nowrap;
-  margin: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: nowrap;
+  margin: 10px;
 }
 .core-process-index div .punto-azul {
   width: 10px;
@@ -659,8 +681,11 @@ a:hover {
   }
   .grid-portfolio-index {
     display: flex;
-    flex-flow: row nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 }
 /* Media queries desktop pequeño */
@@ -681,8 +706,11 @@ a:hover {
   .portfolio-index {
     padding: 110px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
   }
   .grid-portfolio-index {
     justify-content: center;
@@ -771,6 +799,11 @@ a:hover {
   .servicios-actuales .servicio-individual {
     text-align: left;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
   }
   .servicios-actuales .servicio-individual img {
     margin: 10px;
@@ -867,6 +900,8 @@ a:hover {
 /* Navbar del footer */
 .div-navbar-footer {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
