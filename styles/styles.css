@@ -1,8 +1,9 @@
 @charset "UTF-8";
+/* Este Maps está aplicado en todos los colores que hay en los diferentes HTML del Sitio Web */
 /* Variables de tipografías */
 /* Variables de bordes */
 /* Este Mixin está aplicado en ".acróstico" y ".fórmula" del partial main-about-us */
-/* El mixin de arriba lo añado con este código: @include centrar (x);" */
+/* Lo añado con este código: @include centrar (x);" */
 .blanco, button {
   font-family: "Wix Madefor Display", sans-serif;
   font-weight: 100;
@@ -20,6 +21,7 @@
   transition: 0.7s;
 }
 
+/* Este Extends está aplicado en los botones del partial "_botones.scss" */
 /* párrafos */
 p {
   font-family: "Montserrat", sans-serif;

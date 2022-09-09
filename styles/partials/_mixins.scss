@@ -1,7 +1,7 @@
-/* Este Mixin está aplicado en ".acróstico" y ".fórmula" del partial main-about-us */
 @mixin centrar ($ancho) {
     width: $ancho;
     display: block;
     margin: 0 auto;
 }
-/* El mixin de arriba lo añado con este código: @include centrar (x);" */
+/* Este Mixin está aplicado en ".acróstico" y ".fórmula" del partial main-about-us */
+/* Lo añado con este código: @include centrar (x);" */
