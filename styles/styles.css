@@ -759,7 +759,7 @@ a:hover {
   .servicios-actuales {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     align-items: center;
   }
   .servicios-actuales .servicio-individual {
@@ -772,7 +772,7 @@ a:hover {
   .servicios-futuros {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
   }
   .servicios-futuros .servicio-futuro-individual {
@@ -789,9 +789,8 @@ a:hover {
   }
   .servicios-futuros {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 100%;
     align-items: center;
-    padding: 100px 100px 20px 100px;
   }
   .servicios-futuros .servicio-futuro-individual {
     margin: 0px 50px 0px 50px;
