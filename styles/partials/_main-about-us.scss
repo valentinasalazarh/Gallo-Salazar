@@ -47,12 +47,17 @@
     }
     .columnas-about-us {
         display: flex;
+        justify-content: space-between;
     }
     .columnas-core-process {
         display: flex;
         justify-content: space-between;
         div {
-            width: 30%;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+            width: 400px;
         }
     }
 }
@@ -72,8 +77,6 @@
         }
     }
     .columnas-core-process {
-        div {
-            padding: 0px 50px 0px 50px;
-        }
+        padding: 30px 100px 0px 100px;
     }
 }
