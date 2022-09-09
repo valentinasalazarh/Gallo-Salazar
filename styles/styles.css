@@ -1,8 +1,8 @@
 @charset "UTF-8";
-/* Maps */
 /* Variables de tipografías */
 /* Variables de bordes */
-/* Este Mixin está aplicado en el acróstico y la fórmula del partial main-about-us */
+/* Este Mixin está aplicado en ".acróstico" y ".fórmula" del partial main-about-us */
+/* El mixin de arriba lo añado con este código: @include centrar (x);" */
 .blanco, button {
   font-family: "Wix Madefor Display", sans-serif;
   font-weight: 100;
@@ -20,6 +20,112 @@
   transition: 0.7s;
 }
 
+/* párrafos */
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  margin: 15px 0px 15px 0px;
+  width: 100%;
+}
+
+.parrafo-destacado {
+  font-family: "Wix Madefor Display", sans-serif;
+  line-height: 1.3em;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 15px 0px 15px 0px;
+  width: 100%;
+}
+
+/* títulos */
+.titulos {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 100;
+}
+
+.titulos-centrados {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.titulos-gigantes {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 100;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.titulos-portadas {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 47px;
+  padding-top: 80px;
+}
+
+.titulo-portada-contact {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 50px;
+  padding-top: 130px;
+}
+
+/* Media queries tablet */
+@media screen and (min-width: 768px) {
+  .parrafo-50 {
+    width: 50%;
+  }
+  .titulos-portadas {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .texto-index {
+    grid-area: texto-index;
+    z-index: 1;
+  }
+}
+/* Media queries desktop pequeño */
+@media screen and (min-width: 1250px) {
+  .parrafo-50 {
+    padding-top: 20px;
+    width: 40%;
+  }
+  .titulos-portadas {
+    font-family: "Wix Madefor Display", sans-serif;
+    font-weight: 100;
+    font-size: 90px;
+    line-height: 100px;
+    padding-top: 80px;
+  }
+  .titulo-portada-contact {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .titulos-gigantes {
+    font-size: 80px;
+    line-height: 80px;
+    padding-right: 20px;
+  }
+}
+/* Media queries desktop mediano */
+@media screen and (min-width: 1550px) {
+  .titulos-portadas {
+    font-size: 120px;
+    line-height: 140px;
+  }
+}
+/* Media queries desktop grande (iMac 24") */
+@media screen and (min-width: 1980px) {
+  p {
+    font-size: 17px;
+  }
+  .titulos-portadas {
+    font-size: 140px;
+  }
+}
 @font-face {
   font-family: "Wix Madefor Text";
   font-style: normal;
@@ -863,113 +969,4 @@ a:hover {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-}
-
-/* párrafos */
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 11px;
-  margin: 15px 0px 15px 0px;
-  width: 100%;
-}
-
-.parrafo-destacado {
-  font-family: "Wix Madefor Display", sans-serif;
-  line-height: 1.3em;
-  font-weight: 500;
-  font-size: 16px;
-  margin: 15px 0px 15px 0px;
-  width: 100%;
-}
-
-/* títulos */
-.titulos {
-  font-family: "Wix Madefor Display", sans-serif;
-  font-weight: 100;
-}
-
-.titulos-centrados {
-  font-family: "Wix Madefor Display", sans-serif;
-  font-weight: 100;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
-
-.titulos-gigantes {
-  font-family: "Wix Madefor Display", sans-serif;
-  font-weight: 100;
-  font-size: 55px;
-  line-height: 55px;
-}
-
-.titulos-portadas {
-  font-family: "Wix Madefor Display", sans-serif;
-  font-weight: 100;
-  font-size: 45px;
-  line-height: 47px;
-  padding-top: 80px;
-}
-
-.titulo-portada-contact {
-  font-family: "Wix Madefor Display", sans-serif;
-  font-weight: 100;
-  font-size: 45px;
-  line-height: 50px;
-  padding-top: 130px;
-}
-
-/* Media queries tablet */
-@media screen and (min-width: 768px) {
-  .parrafo-50 {
-    width: 50%;
-  }
-  .titulos-portadas {
-    font-size: 60px;
-    line-height: 60px;
-  }
-  .texto-index {
-    grid-area: texto-index;
-    z-index: 1;
-  }
-}
-/* Media queries desktop pequeño */
-@media screen and (min-width: 1250px) {
-  .parrafo-50 {
-    padding-top: 20px;
-    width: 40%;
-  }
-  .titulos-portadas {
-    font-family: "Wix Madefor Display", sans-serif;
-    font-weight: 100;
-    font-size: 90px;
-    line-height: 100px;
-    padding-top: 80px;
-  }
-  .titulo-portada-contact {
-    font-size: 70px;
-    line-height: 70px;
-  }
-  .titulos-gigantes {
-    font-size: 80px;
-    line-height: 80px;
-    padding-right: 20px;
-  }
-}
-/* Media queries desktop mediano */
-@media screen and (min-width: 1550px) {
-  .titulos-portadas {
-    font-size: 120px;
-    line-height: 140px;
-  }
-}
-/* Media queries desktop grande (iMac 24") */
-@media screen and (min-width: 1980px) {
-  p {
-    font-size: 17px;
-  }
-  .titulos-portadas {
-    font-size: 140px;
-  }
 }/*# sourceMappingURL=styles.css.map */
