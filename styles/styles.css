@@ -48,6 +48,7 @@ p {
   font-family: "Wix Madefor Display", sans-serif;
   font-weight: 100;
   text-align: center;
+  padding-top: 40px;
 }
 
 .titulos-gigantes {
@@ -737,7 +738,8 @@ a:hover {
   padding: 5px;
 }
 .servicios-actuales img {
-  width: 25%;
+  width: 70px;
+  height: 70px;
 }
 
 .servicios-futuros {
@@ -748,7 +750,8 @@ a:hover {
   padding: 5px;
 }
 .servicios-futuros img {
-  width: 25%;
+  width: 70px;
+  height: 70px;
 }
 
 /* Media queries tablet */
@@ -764,7 +767,6 @@ a:hover {
     display: flex;
   }
   .servicios-actuales .servicio-individual img {
-    width: 80px;
     margin: 10px;
   }
   .servicios-futuros {
@@ -786,10 +788,10 @@ a:hover {
     padding: 0px 200px 0px 200px;
   }
   .servicios-futuros {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 50% 50%;
     align-items: center;
-    padding: 20px 100px 20px 100px;
+    padding: 100px 100px 20px 100px;
   }
   .servicios-futuros .servicio-futuro-individual {
     margin: 0px 50px 0px 50px;

@@ -5,7 +5,8 @@
         padding: 5px;
     }
     img {
-        width: 25%;
+        width: 70px;
+        height: 70px;
     }
 }
 .servicios-futuros {
@@ -15,7 +16,8 @@
         padding: 5px;
     }
     img {
-        width: 25%;
+        width: 70px;
+        height: 70px;
     }
 }
 
@@ -31,7 +33,6 @@
             text-align: left;
             display: flex;
             img {
-                width: 80px;
                 margin: 10px;
             }
         }
@@ -57,10 +58,10 @@
         padding: 0px 200px 0px 200px;
     }
     .servicios-futuros {
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 50% 50%;
         align-items: center;
-        padding: 20px 100px 20px 100px;
+        padding: 100px 100px 20px 100px;
         .servicio-futuro-individual {
             margin: 0px 50px 0px 50px;
         }
