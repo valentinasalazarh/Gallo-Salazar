@@ -28,7 +28,7 @@
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 10px;
   margin: 15px 0px 15px 0px;
   width: 100%;
 }
@@ -265,7 +265,7 @@ button:hover {
   background-color: #F5F3EE;
   color: #000;
 }
-.cards-portfolio section div {
+.cards-portfolio section .info-cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -273,10 +273,57 @@ button:hover {
   align-items: center;
 }
 
+.contenido-modal {
+  text-align: center;
+  background-color: #F5F3EE;
+}
+.contenido-modal div {
+  padding: 10px;
+}
+.contenido-modal div .logos-clientes {
+  border-radius: 0;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contenido-modal .galeria-clientes img {
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.header-modal {
+  background-color: #F5F3EE;
+  border: none;
+}
+
+.boton-cerrar-modal:hover {
+  border: none;
+}
+
 /* Media queries tablet */
 @media screen and (min-width: 768px) {
   .cards-portfolio {
     padding: 15px;
+  }
+  .contenido-modal {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+  }
+}
+/* Media queries desktop  */
+@media screen and (min-width: 1250px) {
+  .contenido-modal {
+    grid-template-columns: 30% 70%;
+  }
+  .contenido-modal div {
+    padding: 30px;
+  }
+  .contenido-modal .galeria-clientes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
   }
 }
 footer {

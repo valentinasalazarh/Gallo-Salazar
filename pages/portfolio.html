@@ -124,22 +124,49 @@
         <section class="portfolio-grid">
 
             <div class="cards-portfolio">
+
                 <img src="../images/polett.jpg" alt="foto de Polett">
+
                 <section>
                     <h4 class="titulos">Polett</h4>
                     <p>Servicios: Branding, art direction, social media posts.</p>
-                    <div>
+                    <div class="info-cards">
                         <h5 class="titulos">2022</h5>
-                        <a href="#">
-                            <button>
-                                <h6 class="titulos">+ info & galería</h6> 
-                                <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                              </svg>
-                            </button>
-                        </a>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modal-polett">
+                            <h6 class="titulos">+ info & galería</h6> 
+                            <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
                     </div>
                 </section>
+
+                <div class="modal fade" id="modal-polett" tabindex="-1" aria-hidden="true" aria-labelledby="modal-polett-titulo">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header header-modal">
+                                <button type="button" class="btn-close boton-cerrar-modal" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body contenido-modal">
+                                <div>
+                                    <!-- <h1 class="titulos-gigantes">Polett</h1> -->
+                                    <img class="logos-clientes" src="../images/clientes/logos-clientes/logo-polett.svg" alt="Logo Polett">
+                                    <h4 class="titulos">Who is Polett?</h4>
+                                    <p>Somos una empresa familiar que surge desde la convicción y el empoderamiento que cada mujer debe y puede tener en todos los aspectos de su vida. Desde esa perspectiva, nuestra empresa se enfoca en la belleza y el bienestar que, a su vez, permite generar seguridad en cada una de nosotras como mujeres.</p>
+                                    <p>Al ser un spa de uñas, cuidamos cada detalle para que tanto nuestro equipo de trabajo, como cada una de nuestras clientes, disfrute de un lugar tranquilo, elegante y cómodo</p>
+                                    <h6 class="titulos">Servicios: Branding, art direction, social media posts.</h6>
+                                </div>
+                                <div class="galeria-clientes">
+                                    <img src="../images/clientes/fotos-clientes/polett/polet-web-site.jpg" alt="Web site de Polett">
+                                    <img src="../images/clientes/fotos-clientes/polett/polett-aviso-hale.jpg" alt="Aviso de hale Polett">
+                                    <img src="../images/clientes/fotos-clientes/polett/polett-grid-social-media.png" alt="Grid de redes sociales de Polett">
+                                    <img src="../images/clientes/fotos-clientes/polett/polett-bag.jpg" alt="Foto de bolsa de pedidos de Polett">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="cards-portfolio">
