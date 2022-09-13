@@ -40,6 +40,7 @@
 }
 
 .header-modal {
+    height: 1px;
     background-color: map-get($colores, hueso);
     border: none;
 }
@@ -61,6 +62,26 @@
         display: grid;
         grid-template-columns: 40% 60%;
         grid-template-rows: auto;
+        /* Lo siguiente es el scroll vertical: */
+        .galeria-clientes {
+            display: grid;
+            grid-auto-flow: row;
+            gap: 1px;
+            overflow-x: auto;
+            overscroll-behavior-y: contain;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+        }
+            
+        .galeria-clientes > img {
+            scroll-snap-align: start;
+        }
+        
+        .galeria-clientes img {
+            border-radius:60px;
+            width: 100%;
+            object-fit: contain;
+        }
     }
 }
 
@@ -68,13 +89,24 @@
 @media screen and (min-width: 1250px) {
     .contenido-modal {
         grid-template-columns: 30% 70%;
+        align-items: center;
+        height: 100%;
         div {
             padding: 30px;
         }
+        /* Lo siguiente es el scroll horizontal: */
         .galeria-clientes {
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 50% 50%;
+            grid-auto-flow: column;
+            overflow-y: auto;
+            overscroll-behavior-x: contain;
+        }
+            
+        .galeria-clientes > img {
+            scroll-snap-align: start;
+        }
+        
+        .galeria-clientes img {
+            width: 600px;
         }
     }
 }

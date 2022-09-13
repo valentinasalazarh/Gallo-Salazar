@@ -294,6 +294,7 @@ button:hover {
 }
 
 .header-modal {
+  height: 1px;
   background-color: #F5F3EE;
   border: none;
 }
@@ -311,20 +312,49 @@ button:hover {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: auto;
+    /* Lo siguiente es el scroll vertical: */
+  }
+  .contenido-modal .galeria-clientes {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1px;
+    overflow-x: auto;
+    overscroll-behavior-y: contain;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .contenido-modal .galeria-clientes > img {
+    scroll-snap-align: start;
+  }
+  .contenido-modal .galeria-clientes img {
+    border-radius: 60px;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 /* Media queries desktop  */
 @media screen and (min-width: 1250px) {
   .contenido-modal {
     grid-template-columns: 30% 70%;
+    align-items: center;
+    height: 100%;
+    /* Lo siguiente es el scroll horizontal: */
   }
   .contenido-modal div {
     padding: 30px;
   }
   .contenido-modal .galeria-clientes {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-auto-flow: column;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+  }
+  .contenido-modal .galeria-clientes > img {
+    scroll-snap-align: start;
+  }
+  .contenido-modal .galeria-clientes img {
+    width: 600px;
   }
 }
 footer {
