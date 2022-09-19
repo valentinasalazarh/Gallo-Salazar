@@ -256,6 +256,7 @@ button:hover {
   border-radius: 20px;
 }
 .cards-portfolio section {
+  height: 240px;
   position: relative;
   z-index: 100;
   padding: 25px;
