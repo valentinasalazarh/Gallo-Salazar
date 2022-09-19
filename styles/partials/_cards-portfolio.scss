@@ -82,6 +82,10 @@
             width: 100%;
             object-fit: contain;
         }
+
+        .galeria-clientes::-webkit-scrollbar{
+            display: none;
+            }
     }
 }
 
@@ -108,5 +112,9 @@
         .galeria-clientes img {
             width: 600px;
         }
+
+        .galeria-clientes::-webkit-scrollbar{
+            display: none;
+            }
     }
 }
