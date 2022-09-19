@@ -114,6 +114,7 @@
 
     <!-- CONTENIDO -->
     <main class="row">
+
         <!-- PRIMERA SECCIÓN -->
         <section class="portadas">
             <div class="texto-index">
@@ -150,8 +151,11 @@
                 <video class="video-portada" src="./images/video-portada.mov" autoplay loop></video>
             </div>
         </section>
+
         <!-- SEGUNDA SECCIÓN -->
         <section class="portfolio-index">
+
+            <!-- UNO -->
             <div class="texto-portfolio-index">
                 <h1 class="titulos-gigantes">Look our portfolio.</h1>
                 <a href="./pages/portfolio.html">
@@ -163,61 +167,153 @@
                     </button>
                 </a>
             </div>
+
+            <!-- DOS -->
             <div class="grid-portfolio-index">
+            
+                <!-- DAVANY -->
                 <div class="cards-portfolio">
-                    <img src="./images/trazos.jpg" alt="foto de trazos">
+
+                    <!-- CARD -->
+                    <img src="../images/clientes/portadas/1-davany.jpg" alt="foto de Davany">
                     <section>
-                        <h4 class="titulos">Trazos</h4>
-                        <p>Servicios: Branding, naming, e-commerce, art direction, packaging, photography, social media.</p>
-                        <div>
-                            <h5 class="titulos">2021</h5>
-                            <a href="#">
-                                <button>
-                                    <h6 class="titulos">+ info & galería</h6> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                                  </svg>
-                                </button>
-                            </a>
-                        </div>
-                    </section>
-                </div>
-                <div class="cards-portfolio">
-                    <img src="./images/solata.jpg" alt="foto de solata">
-                    <section>
-                        <h4 class="titulos">Solata</h4>
-                        <p>Servicios: Branding, naming, art direction, photography, packaging.</p>
-                        <div>
-                            <h5 class="titulos">2018</h5>
-                            <a href="#">
-                                <button>
-                                    <h6 class="titulos">+ info & galería</h6> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                                  </svg>
-                                </button>
-                            </a>
-                        </div>
-                    </section>
-                </div>
-                <div id="card-hide" class="cards-portfolio">
-                    <img src="./images/parodar.jpg" alt="foto de pa rodar">
-                    <section>
-                        <h4 class="titulos">Pa' Rodar</h4>
-                        <p>Servicios: Branding, art direction, marketing, social media.</p>
-                        <div>
+                        <h4 class="titulos">Davany</h4>
+                        <p>Servicios: Branding, packaging, art direction, social media posts.</p>
+                        <div class="info-cards">
                             <h5 class="titulos">2022</h5>
-                            <a href="#">
-                                <button>
-                                    <h6 class="titulos">+ info & galería</h6> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                                  </svg>
-                                </button>
-                            </a>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modal-davany">
+                                <h6 class="titulos">+ info & galería</h6> 
+                                <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </button>
                         </div>
                     </section>
+
+                    <!-- MODAL -->
+                    <div class="modal fade" id="modal-davany" tabindex="-1" aria-hidden="true" aria-labelledby="modal-davany-titulo">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header header-modal">
+                                    <button type="button" class="btn-close boton-cerrar-modal" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body contenido-modal">
+                                    <div>
+                                        <img class="logos-clientes" src="../images/clientes/logos-clientes/logo-davany.svg" alt="Logo Davany">
+                                        <h4 class="titulos">About</h4>
+                                        <p>Nace desde la necesidad de encontrar productos naturales para mí, ya que tengo una enfermedad de endometriocis fuerte. ¿Qué es? Es un trastorno doloroso hormonal, el tejido crece fuera del útero, y con esto tuve una cirugía en la que casi pierdo mis ovarios.</p>
+                                        <p>A raíz de esto tengo problemas de piel y hormonales, he probado todo lo convencional del mercado, pero nada parece funcionar, hasta que empecé a interesarme mucho por la cosmética natural y las plantas medicinales, las plantas me ayudaron mucho con mis severos dolores bajitos y con las migrañas y la cosmética natural me ha ayudado mucho con mi problema de piel. En casa empecé a experiementar mezclando ingredientes caseros que han funcionado mucho, todo esto me llevó a emprender con algo que si me ha ayudado a mí, puede ayudar a mucha gente.</p>
+                                        <p>Vendemos saquitos terapeuticos de calor y frío con mezcla de plantas medicinales, (lavanda, menta, romero, semillas de lino, manzanilla, etc.) y velitas de soja que los acompañarán a tener un momento de relajación. A futuro implementaremos una línea de cosméticos elaborados artesanalmente, con ingredientes orgánicos y ecológicos.</p>
+                                        <h6 class="titulos">Servicios: Branding, packaging, art direction, social media posts.</h6>
+                                    </div>
+                                    <div class="galeria-clientes">
+                                        <img src="../images/clientes/fotos-clientes/davany/davany_01.jpg" alt="mockup de vela - davany">
+                                        <img src="../images/clientes/fotos-clientes/davany/davany-02.jpg" alt="mockup de crema - davany">
+                                        <img src="../images/clientes/fotos-clientes/davany/davany-03.jpg" alt="mockup de exfoliante - davany">
+                                        <img src="../images/clientes/fotos-clientes/davany/davany-04.jpg" alt="mockup de cojín - davany">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
+
+                <!-- HOJA SANTA -->
+                <div class="cards-portfolio">
+
+                    <!-- CARD -->
+                    <img src="../images/clientes/portadas/8-hoja-santa.jpg" alt="foto de Hoja Santa">
+                    <section>
+                        <h4 class="titulos">Hoja Santa</h4>
+                        <p>Servicios: Branding, naming, art direction, photography, packaging.</p>
+                        <div class="info-cards">
+                            <h5 class="titulos">2018</h5>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modal-hoja-santa">
+                                <h6 class="titulos">+ info & galería</h6> 
+                                <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </button>
+                        </div>
+                    </section>
+                    
+                    <!-- MODAL -->
+                    <div class="modal fade" id="modal-hoja-santa" tabindex="-1" aria-hidden="true" aria-labelledby="modal-hoja-santa-titulo">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header header-modal">
+                                    <button type="button" class="btn-close boton-cerrar-modal" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body contenido-modal">
+                                    <div>
+                                        <img class="logos-clientes" src="../images/clientes/logos-clientes/logo-hoja-santa.svg" alt="Logo Hoja Santa">
+                                        <h4 class="titulos">About</h4>
+                                        <p>La Hoja Santa es una especia de hojas grandes originaria de México, con un olor fresco, picante y a la vez dulce. Su tradición y valor gastronómico la hacen protagonista de esta tienda artesanal.</p>
+                                        <p>El concepto que se quiso crear fue el de trasmitir una marca de alta calidad sin perder la tradición. En este proyecto además de la identidad se hizo la toma de fotografías y las ilustraciones.</p>
+                                        <h6 class="titulos">Servicios: Branding, naming, art direction, photography, packaging.</h6>
+                                    </div>
+                                    <div class="galeria-clientes">
+                                        <img src="../images/clientes/fotos-clientes/hoja-santa/hoja-santa-02.jpg" alt="Fotos Hoja Santa">
+                                        <img src="../images/clientes/fotos-clientes/hoja-santa/hoja-santa-03.jpg" alt="Fotos Hoja Santa">
+                                        <img src="../images/clientes/fotos-clientes/hoja-santa/hoja-santa-04.jpg" alt="Fotos Hoja Santa">
+                                        <img src="../images/clientes/fotos-clientes/hoja-santa/hoja-santa-05.jpg" alt="Fotos Hoja Santa">
+                                        <img src="../images/clientes/fotos-clientes/hoja-santa/hoja-santa_01.jpg" alt="Fotos Hoja Santa">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- NYIA -->
+                <div id="card-hide" class="cards-portfolio">
+
+                    <!-- CARD -->
+                    <img src="../images/clientes/portadas/6-nyia.jpg" alt="foto de Nyia">
+                    <section>
+                        <h4 class="titulos">Nyia</h4>
+                        <p>Servicios: Branding, naming, art direction, photography, packaging.</p>
+                        <div class="info-cards">
+                            <h5 class="titulos">2018</h5>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#modal-nyia">
+                                <h6 class="titulos">+ info & galería</h6> 
+                                <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </button>
+                        </div>
+                    </section>
+
+                    <!-- MODAL -->
+                    <div class="modal fade" id="modal-nyia" tabindex="-1" aria-hidden="true" aria-labelledby="modal-nyia-titulo">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header header-modal">
+                                    <button type="button" class="btn-close boton-cerrar-modal" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body contenido-modal">
+                                    <div>
+                                        <img class="logos-clientes" src="../images/clientes/logos-clientes/logo-nyia.svg" alt="Logo Nyia">
+                                        <h4 class="titulos">About</h4>
+                                        <p>Inspirada en la naturaleza, en la creación, el universo, el mundo, el cosmos y la tierra.  Esta marca de joyería contemporánea muestra lo que es hoy en día el mejor trabajo realizado por manos artesanas de Colombia. Nyia (que es ORO para la población indígena Muiscas), es el nombre de esta linda marca, la que con mucho amor llegará a llenar de felicidad y belleza el cuerpo y el alma de los Colombianos.</p>
+                                        <h6 class="titulos">Servicios: Branding, naming, art direction, photography, packaging.</h6>
+                                    </div>
+                                    <div class="galeria-clientes">
+                                        <img src="../images/clientes/fotos-clientes/nyia/nyia_01.jpg" alt="Fotos empaques Nyia">
+                                        <img src="../images/clientes/fotos-clientes/nyia/nyia-02.jpg" alt="Fotos empaques Nyia">
+                                        <img src="../images/clientes/fotos-clientes/nyia/nyia-03.jpg" alt="Fotos empaques Nyia">
+                                        <img src="../images/clientes/fotos-clientes/nyia/nyia-04.jpg" alt="Fotos empaques Nyia">
+                                        <img src="../images/clientes/fotos-clientes/nyia/nyia-05.jpg" alt="Fotos empaques Nyia">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </section>
     </main>
