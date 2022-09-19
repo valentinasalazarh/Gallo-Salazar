@@ -5,12 +5,12 @@
         border-radius: 20px;
     }
     section {
-        height: 240px;
+        height: 215px;
         position: relative;
         z-index: 100;
         padding: 25px;
-        border-radius: 20px;
-        margin-top: -80px;
+        border-radius: 30px;
+        margin-top: -40px;
         z-index: 1;
         background-color: map-get($colores, hueso);
         color: map-get($colores, negro);
