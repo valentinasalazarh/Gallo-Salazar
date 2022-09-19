@@ -733,8 +733,10 @@ a:hover {
 
 .portfolio-index {
   padding: 50px;
-  color: #fff;
   background-color: #181818;
+}
+.portfolio-index .texto-portfolio-index {
+  color: #fff;
 }
 
 #card-hide {

@@ -39,8 +39,10 @@
 }
 .portfolio-index {
     padding: 50px;
-    color: map-get($colores, blanco);
     background-color: map-get($colores, gris-oscuro);
+    .texto-portfolio-index {
+        color: map-get($colores, blanco);
+    }
 }
 #card-hide {
     display: none;
