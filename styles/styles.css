@@ -256,7 +256,6 @@ button:hover {
   border-radius: 20px;
 }
 .cards-portfolio section {
-  height: 240px;
   position: relative;
   z-index: 100;
   padding: 25px;
@@ -879,7 +878,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
   }
