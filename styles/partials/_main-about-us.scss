@@ -1,8 +1,24 @@
 .nuestra-esencia {
     padding: 50px;
-}
-#acrostico {
-    @include centrar (70%);
+    .acrostico {
+        @include flex ($direction:row, $justify:center, $align:center);
+        flex-wrap: nowrap;
+        span {
+            margin: 6px;
+            #vertical {
+                color: map-get($colores, blanco);
+                writing-mode: vertical-lr;
+                background-color: map-get($colores, negro);
+                text-orientation: upright;
+                font-size: 1.15em;
+            }
+            h6 {
+                background-color: map-get($colores, blanco);
+                padding: 10px;
+                border-radius: 10px;
+            }
+        }
+    }
 }
 #formula {
     @include centrar (70%);
@@ -42,7 +58,7 @@
         display: flex;
         align-items: center;
         div {
-            padding: 20px;
+            padding: 10px;
         }
     }
     .columnas-about-us {

@@ -563,11 +563,29 @@ a:hover {
 .nuestra-esencia {
   padding: 50px;
 }
-
-#acrostico {
-  width: 70%;
-  display: block;
-  margin: 0 auto;
+.nuestra-esencia .acrostico {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.nuestra-esencia .acrostico span {
+  margin: 6px;
+}
+.nuestra-esencia .acrostico span #vertical {
+  color: #fff;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  background-color: #000;
+  text-orientation: upright;
+  font-size: 1.15em;
+}
+.nuestra-esencia .acrostico span h6 {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 #formula {
@@ -612,7 +630,7 @@ a:hover {
     align-items: center;
   }
   .nuestra-esencia div {
-    padding: 20px;
+    padding: 10px;
   }
   .columnas-about-us {
     display: flex;
