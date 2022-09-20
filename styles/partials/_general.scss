@@ -13,3 +13,7 @@ a {
         color: map-get($colores, negro);
     }
 }
+/* Color de texto seleccionado */
+::selection {
+    background-color: map-get($colores, verde-claro);
+}

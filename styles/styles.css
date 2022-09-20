@@ -28,7 +28,7 @@
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 0.7em;
   margin: 15px 0px 15px 0px;
   width: 100%;
 }
@@ -37,7 +37,7 @@ p {
   font-family: "Wix Madefor Display", sans-serif;
   line-height: 1.3em;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1em;
   margin: 15px 0px 15px 0px;
   width: 100%;
 }
@@ -527,6 +527,14 @@ a {
 }
 a:hover {
   color: #000;
+}
+
+/* Color de texto seleccionado */
+::-moz-selection {
+  background-color: #F5FFDE;
+}
+::selection {
+  background-color: #F5FFDE;
 }
 
 .logo-header {
