@@ -256,7 +256,6 @@ button:hover {
   border-radius: 20px;
 }
 .cards-portfolio section {
-  height: 215px;
   position: relative;
   z-index: 100;
   padding: 25px;
@@ -308,6 +307,9 @@ button:hover {
   .cards-portfolio {
     padding: 15px;
   }
+  .cards-portfolio section {
+    height: 215px;
+  }
   .contenido-modal {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -333,9 +335,6 @@ button:hover {
     -o-object-fit: contain;
        object-fit: contain;
   }
-  .contenido-modal .galeria-clientes::-webkit-scrollbar {
-    display: none;
-  }
 }
 /* Media queries desktop  */
 @media screen and (min-width: 1250px) {
@@ -358,9 +357,6 @@ button:hover {
   }
   .contenido-modal .galeria-clientes img {
     width: 600px;
-  }
-  .contenido-modal .galeria-clientes::-webkit-scrollbar {
-    display: none;
   }
 }
 footer {
@@ -1061,7 +1057,7 @@ a:hover {
   .links-navegacion li a p {
     font-family: "Wix Madefor Display", sans-serif;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .links-navegacion li a p:hover {
     padding-top: 3px;

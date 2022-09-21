@@ -5,7 +5,6 @@
         border-radius: 20px;
     }
     section {
-        height: 215px;
         position: relative;
         z-index: 100;
         padding: 25px;
@@ -57,6 +56,9 @@
 @media screen and (min-width: 768px) {
     .cards-portfolio {
         padding: 15px;
+        section {
+            height: 215px;
+        }
     }
     .contenido-modal {
         display: grid;
@@ -82,10 +84,6 @@
             width: 100%;
             object-fit: contain;
         }
-
-        .galeria-clientes::-webkit-scrollbar{
-            display: none;
-            }
     }
 }
 
@@ -112,9 +110,5 @@
         .galeria-clientes img {
             width: 600px;
         }
-
-        .galeria-clientes::-webkit-scrollbar{
-            display: none;
-            }
     }
 }
