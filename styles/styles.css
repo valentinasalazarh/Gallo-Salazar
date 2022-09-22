@@ -608,9 +608,9 @@ a:hover {
   align-items: flex-end;
   flex-wrap: nowrap;
   font-family: "Wix Madefor Display", sans-serif;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 600;
-  line-height: 45px;
+  line-height: 50px;
   padding: 10px;
 }
 .nuestra-esencia .formula .suma #punto-azul {
@@ -631,10 +631,11 @@ a:hover {
   width: 100%;
 }
 .nuestra-esencia .formula .igual div {
-  width: 80%;
-  font-family: "Wix Madefor Display", sans-serif;
-  font-size: 0.9em;
-  line-height: 20px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.2em;
 }
 
 .columnas-about-us {
@@ -676,7 +677,7 @@ a:hover {
     padding: 0px;
   }
   .nuestra-esencia .formula .igual {
-    width: 70%;
+    width: 80%;
   }
   .nuestra-esencia div {
     padding: 10px;
