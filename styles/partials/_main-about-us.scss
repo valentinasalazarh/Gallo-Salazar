@@ -20,9 +20,37 @@
             }
         }
     }
-}
-#formula {
-    @include centrar (70%);
+    .formula {
+        @include flex ($direction:column, $justify:center, $align:flex-start);
+        .suma {
+            @include flex ($direction:row, $justify:center, $align:flex-end);
+            flex-wrap: nowrap;
+            font-family: $wix;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 45px;
+            padding: 10px;
+            #punto-azul {
+                color: map-get($colores, azul)
+            }
+            #punto-verde {
+                color: map-get($colores, verde)
+            }
+        }
+        .igual {
+            @include flex ($direction:row, $justify:flex-start, $align:flex-start);
+            flex-wrap: nowrap;
+            padding: 10px;
+            border-top: $borde-negro;
+            width: 100%;
+            div {
+                width: 80%;
+                font-family: $wix;
+                font-size: 0.9em;
+                line-height: 20px;
+            }
+        }
+    }
 }
 .columnas-about-us {
     padding: 50px;
@@ -58,6 +86,14 @@
         padding: 0px 50px 0px 50px;
         display: flex;
         align-items: center;
+        .formula {
+            div {
+                padding: 0px;
+            }
+            .igual {
+                width: 70%;
+            }
+        }
         div {
             padding: 10px;
         }
@@ -83,7 +119,7 @@
 
 @media screen and (min-width:1250px) {
     .nuestra-esencia {
-        padding: 0px 100px 0px 100px;
+        padding: 0px 150px 0px 150px;
         div {
             padding: 30px;
         }

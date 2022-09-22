@@ -593,11 +593,48 @@ a:hover {
   padding: 10px;
   border-radius: 10px;
 }
-
-#formula {
-  width: 70%;
-  display: block;
-  margin: 0 auto;
+.nuestra-esencia .formula {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.nuestra-esencia .formula .suma {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 45px;
+  padding: 10px;
+}
+.nuestra-esencia .formula .suma #punto-azul {
+  color: #0025FF;
+}
+.nuestra-esencia .formula .suma #punto-verde {
+  color: #E2FFA4;
+}
+.nuestra-esencia .formula .igual {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  padding: 10px;
+  border-top: 1px solid #000;
+  width: 100%;
+}
+.nuestra-esencia .formula .igual div {
+  width: 80%;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 0.9em;
+  line-height: 20px;
 }
 
 .columnas-about-us {
@@ -635,6 +672,12 @@ a:hover {
     display: flex;
     align-items: center;
   }
+  .nuestra-esencia .formula div {
+    padding: 0px;
+  }
+  .nuestra-esencia .formula .igual {
+    width: 70%;
+  }
   .nuestra-esencia div {
     padding: 10px;
   }
@@ -657,7 +700,7 @@ a:hover {
 /* Media queries desktop pequeño */
 @media screen and (min-width: 1250px) {
   .nuestra-esencia {
-    padding: 0px 100px 0px 100px;
+    padding: 0px 150px 0px 150px;
   }
   .nuestra-esencia div {
     padding: 30px;
