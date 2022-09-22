@@ -416,6 +416,8 @@ form {
   margin: 14px 0px 15px 0px;
 }
 form input {
+  width: 100%;
+  height: 40px;
   border: none;
   background-color: #F5F3EE;
   font-family: "Wix Madefor Display", sans-serif;
@@ -433,6 +435,8 @@ form span, form label {
   padding: 10px;
 }
 form select {
+  width: 100%;
+  height: 40px;
   border: none;
   background-color: #F5F3EE;
   font-weight: 300;
