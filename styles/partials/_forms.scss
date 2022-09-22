@@ -24,6 +24,7 @@ form {
     select {
         width: 100%;
         height: 40px;
+        color: map-get($colores, negro);
         border: none;
         background-color: map-get($colores, hueso);
         font-weight: 300;
@@ -50,6 +51,11 @@ form {
             outline: none;
             background-color: map-get($colores, verde);
         }
+    }
+    [type=date] {
+        color: map-get($colores, negro);
+        width: 100%;
+        height: 40px;
     }
     [type=radio] {
         cursor: pointer;
