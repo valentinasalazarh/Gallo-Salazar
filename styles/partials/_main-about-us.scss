@@ -6,11 +6,12 @@
         span {
             margin: 6px;
             #vertical {
+                font-family: $wix;
+                text-align: center;
                 color: map-get($colores, blanco);
-                writing-mode: vertical-lr;
                 background-color: map-get($colores, negro);
-                text-orientation: upright;
-                font-size: 1.15em;
+                width: 39px;
+                height: 39px;
             }
             h6 {
                 background-color: map-get($colores, blanco);
