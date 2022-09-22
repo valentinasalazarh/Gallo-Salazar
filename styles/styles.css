@@ -765,8 +765,17 @@ a:hover {
   display: none;
 }
 
+/* Primer breakpoint de título principal (dreams) */
+@media screen and (min-width: 504px) {
+  .dreams {
+    margin-left: -5px;
+  }
+}
 /* Media queries tablet */
 @media screen and (min-width: 768px) {
+  .dreams {
+    margin-left: -20px;
+  }
   .video-portada {
     grid-area: video-portada;
     width: 440px;
@@ -794,6 +803,12 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+  }
+}
+/* Segundo breakpoint de título principal (dreams) */
+@media screen and (min-width: 1097px) {
+  .dreams {
+    margin-left: -5px;
   }
 }
 /* Media queries desktop pequeño */
