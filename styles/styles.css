@@ -650,6 +650,7 @@ a:hover {
 }
 .columnas-about-us div {
   padding: 10px;
+  width: 100%;
 }
 .columnas-about-us div img {
   width: 50%;
