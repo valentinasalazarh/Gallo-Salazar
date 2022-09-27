@@ -87,6 +87,11 @@ form {
             cursor: pointer;
             transition: 0.7s;
         }
+        &:focus {
+            border-radius: 10px;
+            color: map-get($colores, negro);
+            border: none;
+        }
     }
 }
 

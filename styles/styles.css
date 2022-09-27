@@ -505,6 +505,11 @@ form [type=submit]:hover, form [type=reset]:hover {
   cursor: pointer;
   transition: 0.7s;
 }
+form [type=submit]:focus, form [type=reset]:focus {
+  border-radius: 10px;
+  color: #000;
+  border: none;
+}
 
 .newsletter-formulario {
   padding-top: 20px;
