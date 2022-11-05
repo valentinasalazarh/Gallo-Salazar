@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   background-color: transparent;
+  text-align: center;
 }
 .blanco:hover, button:hover {
   padding-left: 20px;
@@ -252,6 +253,29 @@ button:hover {
 #wa-portfolio:hover {
   background-color: #E2FFA4;
   color: #000;
+}
+
+/*Botones del nav universal */
+.boton-nav-universal {
+  position: fixed;
+  bottom: 1%;
+  z-index: 100;
+  right: 0;
+  width: 140px;
+  font-size: 8px;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+.boton-nav-universal div {
+  background-color: #F5FFDE;
+  padding: 13px;
+  margin: 6px;
+  border-radius: 14px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.boton-nav-universal div:hover {
+  cursor: pointer;
+  background-color: #fff;
 }
 
 .cards-portfolio {
@@ -1138,7 +1162,7 @@ a:hover {
   .links-navegacion li a p {
     font-family: "Wix Madefor Display", sans-serif;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .links-navegacion li a p:hover {
     padding-top: 3px;

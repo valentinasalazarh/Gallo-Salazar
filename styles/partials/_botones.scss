@@ -58,3 +58,26 @@ button {
         color: map-get($colores, negro);
     }
 }
+
+/*Botones del nav universal */
+.boton-nav-universal {
+    position: fixed;
+    bottom: 1%;
+    z-index: 100;
+    right: 0;
+    width: 140px;
+    font-size: 8px;
+    font-family: $wix;
+    div {
+        background-color: map-get($colores, verde-claro);
+        padding: 13px;
+        margin: 6px;
+        border-radius: 14px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        &:hover {
+            cursor: pointer;
+            background-color: map-get($colores, blanco);
+        }
+    }
+}
