@@ -261,19 +261,20 @@ button:hover {
   bottom: 1%;
   z-index: 100;
   right: 0;
-  width: 140px;
+  width: 130px;
   font-size: 8px;
   font-family: "Wix Madefor Display", sans-serif;
 }
-.boton-nav-universal div {
+.boton-nav-universal a {
+  display: grid;
   background-color: #F5FFDE;
-  padding: 13px;
+  padding: 12px 5px 12px 5px;
   margin: 6px;
-  border-radius: 14px;
+  border-radius: 10px;
   text-align: center;
   letter-spacing: 0.5px;
 }
-.boton-nav-universal div:hover {
+.boton-nav-universal a:hover {
   cursor: pointer;
   background-color: #fff;
 }
